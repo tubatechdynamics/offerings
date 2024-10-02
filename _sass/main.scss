@@ -58,10 +58,26 @@ nav a {
   font-weight: bold;
 }
 
+// Updated hero section
 .hero {
   position: relative;
-  height: 100vh;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
+
+  video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    object-fit: cover;
+    object-position: center;
+  }
 
   &::before {
     content: '';
@@ -70,19 +86,8 @@ nav a {
     left: 0;
     right: 0;
     bottom: 0;
-    background: $gradient-overlay;
+    background: linear-gradient(135deg, rgba(29, 20, 12, 0.7), rgba(179, 155, 69, 0.7));
     z-index: 1;
-  }
-
-  video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    transform: translateX(-50%) translateY(-50%);
   }
 }
 
@@ -90,21 +95,19 @@ nav a {
   position: relative;
   z-index: 2;
   text-align: center;
+  color: $primary-bg-color;
 
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: $primary-bg-color;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    animation: glow 2s ease-in-out infinite alternate;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 30px;
-    color: $primary-bg-color;
   }
 }
 
@@ -174,28 +177,22 @@ nav a {
   }
 
   &:hover {
-    transform: translateY(-10px) scale(1.03);
+    transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
   }
 }
 
 .featured-solution {
   background-color: $secondary-accent-color;
-  border-radius: 15px;
   padding: 60px 40px;
   margin-top: 60px;
   box-shadow: $box-shadow;
 
   img {
-    border-radius: 15px;
     max-width: 100%;
     height: auto;
     margin-top: 30px;
     transition: $transition;
-
-    &:hover {
-      transform: scale(1.05);
-    }
   }
 }
 
@@ -260,8 +257,57 @@ form button {
   cursor: pointer;
 }
 
+// Cool headers for internal pages
+.page-header {
+  background-color: $header-bg-color;
+  padding: 60px 0;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, $satin-sheen-gold 0%, transparent 50%);
+    opacity: 0.1;
+    animation: rotate 20s linear infinite;
+  }
+
+  h1 {
+    color: $primary-bg-color;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: $cta-color;
+      margin: 20px auto 0;
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 // Add padding to internal pages
-.page-content, .page-header {
+.page-content {
   padding: $common-padding;
 }
 
