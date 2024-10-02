@@ -16,10 +16,6 @@ $accent-color: $eggshell;
 $secondary-accent-color: $pale-dogwood;
 $cta-color: $satin-sheen-gold;
 
-// Common padding
-$common-padding: 40px 20px;
-$common-padding-mobile: 20px 10px;
-
 // New variables
 $gradient-overlay: linear-gradient(135deg, rgba(29, 20, 12, 0.8), rgba(179, 155, 69, 0.8));
 $box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -35,7 +31,7 @@ body {
 
 header {
   background-color: $header-bg-color;
-  padding: $common-padding;
+  padding: 40px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -158,7 +154,7 @@ nav a {
 }
 
 .introduction, .services-highlights, .featured-solution, .footer-cta, .internal-page {
-  padding: $common-padding;
+  padding: 40px 20px;
 }
 
 .service {
@@ -230,7 +226,7 @@ footer {
   background-color: $header-bg-color;
   color: $primary-bg-color;
   text-align: center;
-  padding: $common-padding;
+  padding: 40px 20px;
 }
 
 form {
@@ -259,8 +255,8 @@ form button {
 // Updated cool headers for internal pages
 .page-header {
   background-color: $header-bg-color;
-  padding: 40px 0;
-  margin-bottom: 30px;
+  padding: 30px 0; // Reduced from 40px
+  margin-bottom: 20px; // Reduced from 30px
   position: relative;
   overflow: hidden;
 
@@ -284,7 +280,7 @@ form button {
     position: relative;
     z-index: 1;
     text-align: center;
-    margin: 0;
+    margin: 0 0 10px; // Added bottom margin
 
     &::after {
       content: '';
@@ -292,7 +288,7 @@ form button {
       width: 40px;
       height: 3px;
       background-color: $cta-color;
-      margin: 15px auto 0;
+      margin: 10px auto 0; // Reduced top margin
     }
   }
 }
@@ -306,9 +302,9 @@ form button {
   }
 }
 
-// Add padding to internal pages
+// Updated padding for internal pages
 .page-content {
-  padding: $common-padding;
+  padding: 20px 20px;
 }
 
 @media (max-width: 768px) {
@@ -317,6 +313,6 @@ form button {
   }
 
   .hero, .introduction, .services-highlights, .featured-solution, .footer-cta, .internal-page, header, footer, .page-content {
-    padding: $common-padding-mobile;
+    padding: 20px 10px;
   }
 }
