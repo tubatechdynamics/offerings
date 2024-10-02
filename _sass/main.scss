@@ -116,12 +116,17 @@ form button {
   cursor: pointer;
 }
 
+// Add padding to internal pages
+.page-content {
+  padding: $common-padding;
+}
+
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
   }
 
-  .hero, .introduction, .services-highlights, .featured-solution, .footer-cta, .internal-page, header, footer {
+  .hero, .introduction, .services-highlights, .featured-solution, .footer-cta, .internal-page, header, footer, .page-content {
     padding: $common-padding-mobile;
   }
 }
