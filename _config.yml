@@ -1,0 +1,20 @@
+title: "Tuba Tech Dynamics"
+description: "Empowering Non-Profits with Innovative Technology"
+baseurl: ""
+url: "https://tubatech.dev"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
+# SEO Settings
+seo_title: "Tuba Tech Dynamics | Empowering Non-Profits with Innovative Technology"
+seo_description: "Custom web applications and AI-powered solutions tailored for non-profit organizations. Discover how Tuba Tech Dynamics can elevate your mission."
+
+# Google Analytics
+google_analytics: "G-P1CSPXN354"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
