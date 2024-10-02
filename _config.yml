@@ -18,3 +18,7 @@ google_analytics: "G-P1CSPXN354"
 exclude:
   - Gemfile
   - Gemfile.lock
+
+sass:
+  sass_dir: _sass
+  style: compressed
