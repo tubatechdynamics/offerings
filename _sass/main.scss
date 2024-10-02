@@ -180,15 +180,14 @@ nav a {
 
 .featured-solution {
   background-color: $secondary-accent-color;
-  padding: 60px 40px;
+  padding: 60px 0; // Remove horizontal padding
   margin-top: 60px;
-  box-shadow: $box-shadow;
+  box-shadow: none; // Remove box shadow as it's now full-width
 
   img {
-    max-width: 100%;
-    height: auto;
+    @extend .full-width-image;
     margin-top: 30px;
-    transition: $transition;
+    margin-bottom: 30px;
   }
 }
 
@@ -305,6 +304,22 @@ form button {
 // Updated padding for internal pages
 .page-content {
   padding: 20px 20px;
+
+  img {
+    @extend .full-width-image;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+// New full-width image styles
+.full-width-image {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  height: 50vw; // This creates a 2:1 aspect ratio
+  max-height: 56.25vw; // This limits the height to 16:9 aspect ratio
+  object-fit: cover;
+  object-position: center;
 }
 
 @media (max-width: 768px) {
@@ -314,5 +329,10 @@ form button {
 
   .hero, .introduction, .services-highlights, .featured-solution, .footer-cta, .internal-page, header, footer, .page-content {
     padding: 20px 10px;
+  }
+
+  .full-width-image {
+    height: 75vw; // Adjust for mobile to maintain visibility
+    max-height: 75vw;
   }
 }
