@@ -11,9 +11,7 @@ We are proud to showcase our work with inspiring non-profit organizations. Here 
 
 ### EmpowerEd Initiative
 
-![EmpowerEd Initiative Logo](assets/images/empowered-logo.png)
-
-*Alt text: Logo design for 'EmpowerEd Initiative', featuring a stylized book and rising sun.*
+![Logo design for 'EmpowerEd Initiative', featuring a stylized book and rising sun.](assets/images/empowered-logo.png)
 
 **Brief Description:** Development of a custom internal application to manage volunteer scheduling and program tracking for an educational non-profit.
 
@@ -28,8 +26,6 @@ We are proud to showcase our work with inspiring non-profit organizations. Here 
 - Improved operational efficiency by 40%
 - Enhanced data accuracy and reporting capabilities
 
-![Project Screenshots](assets/images/project-screenshots.png)
-
-*Alt text: Screenshots of a modern web application interface showing volunteer schedules and analytics dashboards.*
+![Screenshots of a modern web application interface showing volunteer schedules and analytics dashboards.](assets/images/project-screenshots.png)
 
 **Interested in what we can do for you? [View Our Services](/services).**

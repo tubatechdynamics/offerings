@@ -16,6 +16,10 @@ $accent-color: $eggshell;
 $secondary-accent-color: $pale-dogwood;
 $cta-color: $satin-sheen-gold;
 
+// Common padding
+$common-padding: 40px 20px;
+$common-padding-mobile: 20px 10px;
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: $primary-text-color;
@@ -26,7 +30,7 @@ body {
 
 header {
   background-color: $header-bg-color;
-  padding: 20px;
+  padding: $common-padding;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,7 +58,7 @@ nav a {
   background-position: center;
   color: $primary-text-color;
   text-align: center;
-  padding: 100px 20px;
+  padding: $common-padding;
 }
 
 .hero-text {
@@ -72,8 +76,8 @@ nav a {
   display: inline-block;
 }
 
-.introduction, .services-highlights, .featured-solution, .footer-cta {
-  padding: 40px 20px;
+.introduction, .services-highlights, .featured-solution, .footer-cta, .internal-page {
+  padding: $common-padding;
 }
 
 .service {
@@ -86,7 +90,7 @@ footer {
   background-color: $header-bg-color;
   color: $primary-bg-color;
   text-align: center;
-  padding: 20px;
+  padding: $common-padding;
 }
 
 form {
@@ -112,20 +116,12 @@ form button {
   cursor: pointer;
 }
 
-.internal-page {
-  padding: 40px 20px;
-}
-
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
   }
 
-  .hero {
-    padding: 50px 20px;
-  }
-
-  .internal-page {
-    padding: 20px 10px;
+  .hero, .introduction, .services-highlights, .featured-solution, .footer-cta, .internal-page, header, footer {
+    padding: $common-padding-mobile;
   }
 }
