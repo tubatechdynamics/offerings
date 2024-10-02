@@ -1,11 +1,20 @@
 // Import Google Fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
-$primary-text-color: #000000;
-$dark-accent-color: #1d140c;
-$primary-bg-color: #f0e8d5;
-$light-accent-color: #d6b6b1;
-$medium-accent-color: #b39b45;
+// Color palette
+$black: #000000;
+$licorice: #1d140c;
+$eggshell: #f0e8d5;
+$pale-dogwood: #d6b6b1;
+$satin-sheen-gold: #b39b45;
+
+// Color usage
+$primary-text-color: $black;
+$header-bg-color: $licorice;
+$primary-bg-color: #ffffff;
+$accent-color: $eggshell;
+$secondary-accent-color: $pale-dogwood;
+$cta-color: $satin-sheen-gold;
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -16,7 +25,7 @@ body {
 }
 
 header {
-  background-color: $light-accent-color;
+  background-color: $header-bg-color;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -36,7 +45,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: $primary-text-color;
+  color: $primary-bg-color;
   font-weight: bold;
 }
 
@@ -49,13 +58,13 @@ nav a {
 }
 
 .hero-text {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(240, 232, 213, 0.8); // Using eggshell with opacity
   display: inline-block;
   padding: 20px;
 }
 
 .cta-button {
-  background-color: $medium-accent-color;
+  background-color: $cta-color;
   color: $primary-text-color;
   padding: 10px 20px;
   text-decoration: none;
@@ -68,13 +77,13 @@ nav a {
 }
 
 .service {
-  background-color: $light-accent-color;
+  background-color: $accent-color;
   padding: 20px;
   margin-bottom: 20px;
 }
 
 footer {
-  background-color: $dark-accent-color;
+  background-color: $header-bg-color;
   color: $primary-bg-color;
   text-align: center;
   padding: 20px;
@@ -95,12 +104,16 @@ form input, form textarea {
 }
 
 form button {
-  background-color: $medium-accent-color;
+  background-color: $cta-color;
   color: $primary-text-color;
   padding: 10px;
   margin-top: 20px;
   border: none;
   cursor: pointer;
+}
+
+.internal-page {
+  padding: 40px 20px;
 }
 
 @media (max-width: 768px) {
@@ -110,5 +123,9 @@ form button {
 
   .hero {
     padding: 50px 20px;
+  }
+
+  .internal-page {
+    padding: 20px 10px;
   }
 }
