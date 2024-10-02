@@ -20,6 +20,11 @@ $cta-color: $satin-sheen-gold;
 $common-padding: 40px 20px;
 $common-padding-mobile: 20px 10px;
 
+// New variables
+$gradient-overlay: linear-gradient(135deg, rgba(29, 20, 12, 0.7), rgba(179, 155, 69, 0.7));
+$box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+$transition: all 0.3s ease;
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: $primary-text-color;
@@ -54,26 +59,62 @@ nav a {
 }
 
 .hero {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   background-position: center;
   color: $primary-text-color;
-  text-align: center;
-  padding: $common-padding;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $gradient-overlay;
+  }
 }
 
 .hero-text {
-  background-color: rgba(240, 232, 213, 0.8); // Using eggshell with opacity
-  display: inline-block;
-  padding: 20px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: $box-shadow;
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
 }
 
 .cta-button {
   background-color: $cta-color;
-  color: $primary-text-color;
-  padding: 10px 20px;
+  color: $primary-bg-color;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: $transition;
+  box-shadow: $box-shadow;
   text-decoration: none;
-  margin-top: 10px;
   display: inline-block;
+  
+  &:hover {
+    background-color: darken($cta-color, 10%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .introduction, .services-highlights, .featured-solution, .footer-cta, .internal-page {
@@ -84,6 +125,48 @@ nav a {
   background-color: $accent-color;
   padding: 20px;
   margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: $box-shadow;
+  transition: $transition;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.featured-solution {
+  background-color: $secondary-accent-color;
+  border-radius: 10px;
+  padding: 40px;
+  margin-top: 40px;
+  box-shadow: $box-shadow;
+  
+  img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+}
+
+.footer-cta {
+  background-color: $accent-color;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 40px;
+  text-align: center;
+  
+  a {
+    color: $primary-text-color;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: $transition;
+    
+    &:hover {
+      color: $cta-color;
+    }
+  }
 }
 
 footer {
