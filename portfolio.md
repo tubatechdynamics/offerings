@@ -11,7 +11,7 @@ We are proud to showcase our work with inspiring non-profit organizations. Here 
 
 ### EmpowerEd Initiative
 
-![EmpowerEd Initiative Logo](assets/images/empowered-logo.jpg)
+![EmpowerEd Initiative Logo](assets/images/empowered-logo.png)
 
 *Alt text: Logo design for 'EmpowerEd Initiative', featuring a stylized book and rising sun.*
 
@@ -28,7 +28,7 @@ We are proud to showcase our work with inspiring non-profit organizations. Here 
 - Improved operational efficiency by 40%
 - Enhanced data accuracy and reporting capabilities
 
-![Project Screenshots](assets/images/project-screenshots.jpg)
+![Project Screenshots](assets/images/project-screenshots.png)
 
 *Alt text: Screenshots of a modern web application interface showing volunteer schedules and analytics dashboards.*
 

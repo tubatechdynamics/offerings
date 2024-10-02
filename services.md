@@ -16,7 +16,7 @@ We develop bespoke software solutions that optimize your internal processes, sav
   - Secure and scalable platforms
   - Integration with existing systems
 
-![Custom Internal Applications](assets/images/custom-applications.jpg)
+![Custom Internal Applications](assets/images/custom-applications.png)
 
 *Alt text: Illustration of a non-profit team efficiently managing operations using custom software tools.*
 
@@ -29,7 +29,7 @@ Leverage artificial intelligence to turn complex data into clear, actionable ins
   - Predictive analytics
   - Data-driven decision support
 
-![AI-Powered Visualizations](assets/images/ai-visualizations.jpg)
+![AI-Powered Visualizations](assets/images/ai-visualizations.png)
 
 *Alt text: Visual representation of data analytics with AI, showing charts and graphs in a user-friendly interface.*
 
@@ -42,7 +42,7 @@ Enhance your outreach with interactive tools that engage donors, volunteers, and
   - Interactive maps and visual content
   - Online forms and surveys
 
-![Public Engagement Tools](assets/images/public-engagement.jpg)
+![Public Engagement Tools](assets/images/public-engagement.png)
 
 *Alt text: People engaging with digital tools on laptops and smartphones, representing public interaction.*
 

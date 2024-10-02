@@ -48,6 +48,6 @@ We're excited to learn more about your organization and how we can help. Whether
 
 - **Email:** [info@tubatech.dev](mailto:info@tubatech.dev)
 
-![Contact Illustration](assets/images/contact.jpg)
+![Contact Illustration](assets/images/contact.png)
 
 *Alt text: An inviting illustration of a person typing on a laptop, surrounded by icons representing communication and collaboration.*
