@@ -316,8 +316,7 @@ form button {
 .full-width-image {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  height: 50vw; // This creates a 2:1 aspect ratio
-  max-height: 56.25vw; // This limits the height to 16:9 aspect ratio
+  height: 56.25vw; // This creates a 16:9 aspect ratio
   object-fit: cover;
   object-position: center;
 }
@@ -332,7 +331,7 @@ form button {
   }
 
   .full-width-image {
-    height: 75vw; // Adjust for mobile to maintain visibility
-    max-height: 75vw;
+    height: 56.25vw; // Maintain 16:9 ratio on mobile
+    max-height: 56.25vw;
   }
 }
