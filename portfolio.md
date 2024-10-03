@@ -9,7 +9,7 @@ We are proud to showcase our work with inspiring non-profit organizations. Here 
 
 ## Project Showcase
 
-### EmpowerEd Initiative
+### EmpowerEd Initiative {#case-study-empowered}
 
 ![Logo design for 'EmpowerEd Initiative', featuring a stylized book and rising sun.](assets/images/empowered-logo.png)
 
