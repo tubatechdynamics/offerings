@@ -11,7 +11,7 @@ We are proud to showcase our work with inspiring non-profit organizations. Here 
 
 ### EmpowerEd Initiative {#case-study-empowered}
 
-![Logo design for 'EmpowerEd Initiative', featuring a stylized book and rising sun.](assets/images/empowered-logo.png)
+![Logo design for 'EmpowerEd Initiative', featuring a stylized book and rising sun.](assets/images/empowered-initiative.png)
 
 **Brief Description:** Development of a custom internal application to manage volunteer scheduling and program tracking for an educational non-profit.
 
