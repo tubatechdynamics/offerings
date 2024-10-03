@@ -20,14 +20,19 @@
       <p>Have questions or want to discuss a project?</p>
       <a href="{{ '/contact' | relative_url }}">Contact Us</a>
     </div>
-    <!-- <div class="footer-section newsletter">
+    <div class="footer-section newsletter">
       <h3>Stay Updated</h3>
       <p>Subscribe to our newsletter for the latest updates and insights.</p>
-      <form action="#" method="post" class="newsletter-form">
-        <input type="email" name="email" placeholder="Enter your email" required>
-        <button type="submit">Subscribe</button>
-      </form>
-    </div> -->
+      <!-- MailerLite Universal -->
+      <script>
+        (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+        .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+        n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+        (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+        ml('account', '1128411');
+      </script>
+      <!-- End MailerLite Universal -->
+    </div>
   </div>
   <div class="footer-bottom">
     <p>&copy; {{ site.time | date: "%Y" }} Tuba Tech Dynamics. All rights reserved.</p>
