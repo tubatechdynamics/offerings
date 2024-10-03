@@ -233,23 +233,33 @@ footer {
 }
 
 .service {
-  background-color: $accent-color;
+  background-color: $pale-dogwood; // Changed from $accent-color to $pale-dogwood
   padding: 30px;
   margin-bottom: 30px;
   border-radius: 15px;
 }
 
 .featured-solution {
-  background-color: $secondary-accent-color;
+  background-color: $eggshell; // Changed from $secondary-accent-color to $eggshell
   padding: 60px 0;
   margin-top: 60px;
   box-shadow: none;
   overflow-x: hidden;
 
-  .content-wrapper {
+  h2 {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto 20px;
+  }
+
+  .featured-content {
     padding: 0 20px;
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .featured-text {
+    margin-bottom: 30px;
   }
 
   img {
