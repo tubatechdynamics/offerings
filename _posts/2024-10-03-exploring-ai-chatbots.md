@@ -6,6 +6,8 @@ author: Jaycee Lydian
 categories: [AI, Nonprofits, Technology]
 ---
 
+![Illustration of a friendly AI chatbot on a computer screen with diverse volunteers smiling back, stylized tech devices like smartphones and laptops, and a small cat mascot peeking from the corner.](/assets/images/blog/u3343843948_AI_Chatbot_Interacting_with_Volunteers_A_sleek_mo_2b4ae049-a138-46b2-b1ea-4da6f285e078_1)
+
 In the world of non-profits, volunteers are the lifeblood driving initiatives and supporting communities. Small non-profits often face unique challenges in managing volunteers due to limited staff, tight budgets, and the need for effective engagement and communication. As technology evolves, AI chatbots have emerged as powerful tools to alleviate these challenges by automating repetitive tasks, improving communication, and enhancing the volunteer experience.
 
 AI chatbots streamline volunteer management by handling recruitment, onboarding, scheduling, and feedback collection. This automation saves time and allows non-profit leaders to focus on high-impact activities that further their mission.
@@ -34,6 +36,8 @@ AI chatbots simulate human-like conversations using natural language processing 
 - **Collect and Analyze Data**: Gather insights from volunteer interactions to improve programs.
 
 For small non-profits, chatbots offer these benefits at a fraction of the cost of hiring additional staff.
+
+![Image of a volunteer holding a smartphone displaying a chatbot message, set against a community service background, with a small cat mascot integrated subtly in the message.](/assets/images/blog/u3343843948_Personalized_Message_from_AI_Chatbot_An_illustrat_c733eb4e-e5a2-43ac-b9ca-b908bd1898de_2.png)
 
 ## Affordable Chatbot Solutions for Non-Profits
 
@@ -101,6 +105,8 @@ They offer a cost-effective alternative to hiring additional staff, with scalabl
 ### Real-Time Support
 
 Available 24/7, chatbots provide support outside regular business hours, enhancing flexibility.
+
+![Scene of two non-profit leaders looking at analytics on a computer screen, with a cat mascot peeking from behind the monitor and a clean, minimal office setting.](/assets/images/blog/u3343843948_Two-Person_Team_Reviewing_Chatbot_Analytics_A_pro_2b56d676-5c28-494b-96c8-7846ba971a97_1.png)
 
 ## Getting Started with Chatbots
 

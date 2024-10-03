@@ -2,6 +2,26 @@
 layout: default
 title: Blog
 ---
+<div class="blog-container">
+  <h1>Blog Posts</h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </time>
+        </p>
+        <p>{{ post.excerpt }}</p>
+        <a href="{{ post.url | relative_url }}">Read more</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
 <h1>Blog Posts</h1>
 <ul class="post-list">
   {% for post in site.posts %}
