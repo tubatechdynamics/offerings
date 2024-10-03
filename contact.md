@@ -19,7 +19,7 @@ We're eager to learn more about your organization and explore how our technology
 
 Tell us about your project, and we'll get back to you with a customized plan to meet your needs.
 
-<form action="https://formsubmit.co/info@tubatech.dev" method="POST">
+<form action="https://formsubmit.co/4ca88a99fe5fb4e27011196aa30fab41" method="POST">
   <label for="name">Name*</label>
   <input type="text" id="name" name="name" required>
 
