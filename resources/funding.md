@@ -8,8 +8,7 @@ permalink: /resources/funding/
 
 At Tuba Tech Dynamics, we know that non-profits work tirelessly to make the world a better place. But sometimes, securing the funds to keep things running smoothly (or getting a tech upgrade) can feel like herding cats. Don’t worry—we’ve got your back! Our goal is to help you find the funding you need so you can focus on what you do best, while we handle the techy stuff.
 
-![A playful illustration of non-profits and tech companies working together to unlock funding, symbolized by a puzzle piece and key](image-placeholder-1)
-<!-- Image prompt: An illustration of non-profits represented by diverse individuals working hand-in-hand with tech professionals, symbolized by a large puzzle piece with a key unlocking it. The background showcases a sleek, futuristic city with warm lighting, symbolizing innovation and community. -->
+![A playful illustration of non-profits and tech companies working together to unlock funding, symbolized by a puzzle piece and key](/assets/images/resources/funding/u3343843948_An_illustration_of_non-profits_represented_by_div_9291fb39-0b01-49b9-ae23-fa6d89f44e45_3.png)
 
 ## Purpose
 
@@ -46,8 +45,7 @@ We've done the legwork (or should we say paw-work?) and compiled a list of grant
 
 ## Application Assistance
 
-![Illustration of a helping hand guiding a non-profit organization through paperwork, with digital documents flying around playfully](image-placeholder-2)
-<!-- Image prompt: A friendly and playful illustration showing a hand offering guidance to a non-profit representative, navigating through various floating digital documents, with some futuristic icons and symbols representing funding and technology. The background evokes a feeling of ease and support. -->
+![Illustration of a helping hand guiding a non-profit organization through paperwork, with digital documents flying around playfully](/assets/images/resources/funding/u3343843948_A_friendly_and_playful_illustration_showing_a_han_c5bdc445-f9a5-4a40-85b3-d916e1071b0e_0.png)
 
 Don’t let the paperwork get you tangled in a yarn ball. We’re here to help guide you through the application process:
 

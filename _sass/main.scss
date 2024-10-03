@@ -274,20 +274,21 @@ main {
   );
   background-size: 200% 100%;
   animation: slideLeft 60s linear infinite;
-  padding: 60px 0;
+  padding: 60px 0 40px;
+  margin-top: -2px;
   margin-bottom: 0;
   text-align: center;
   position: relative;
   overflow: hidden;
 
   > h1 {
-    color: $eggshell !important; // Add !important to override the general style
+    color: $eggshell !important;
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
     position: relative;
     z-index: 1;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     line-height: 1.2;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -569,7 +570,6 @@ img {
 }
 
 .featured-solution {
-  @extend .full-width-container;
   background-color: $licorice;
   color: $eggshell;
   padding: 80px 0;
@@ -602,7 +602,6 @@ img {
   img {
     @extend .full-width-image;
     max-width: 800px;
-    border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   }
 
@@ -949,18 +948,5 @@ form {
       padding: 12px 24px;
       font-size: 0.9rem;
     }
-  }
-}
-
-.page-header {
-  margin-top: -2px; // Changed from -2rem to -2px
-  padding: 60px 0 40px;
-  background-color: $accent-color;
-  text-align: center;
-
-  h1 {
-    font-size: 2.5rem;
-    color: $licorice;
-    margin-bottom: 0;
   }
 }
