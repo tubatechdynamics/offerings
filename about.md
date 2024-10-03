@@ -23,7 +23,7 @@ Jaycee is a seasoned software developer with a passion for creating impactful te
 
 Jude brings a unique blend of social work experience and technological expertise to Tuba Tech Dynamics. With a deep understanding of the non-profit sector's challenges, Jude ensures that our solutions are not only technically robust but also aligned with the real-world needs of organizations making a difference.
 
-![A professional photograph of Jaycee and Jude standing together in an office environment, smiling and approachable.](assets/images/team.jpg)
+![A professional photograph of Jaycee and Jude standing together in an office environment, smiling and approachable.](assets/images/team.png)
 
 ## Why Choose Us
 
