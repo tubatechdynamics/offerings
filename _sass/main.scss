@@ -16,7 +16,7 @@ $accent-color: $eggshell;
 $secondary-accent-color: $pale-dogwood;
 $cta-color: $satin-sheen-gold;
 
-// New variables
+// Additional variables
 $gradient-overlay: linear-gradient(135deg, rgba(29, 20, 12, 0.8), rgba(179, 155, 69, 0.8));
 $box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 $transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -226,7 +226,7 @@ nav {
   background-image: url('/assets/images/hero-background.png');
   background-size: cover;
   background-position: center;
-  margin-bottom: 0; // Remove any bottom margin if present
+  margin-bottom: 0;
 
   &::before {
     content: '';
@@ -322,14 +322,14 @@ nav {
 }
 
 .service {
-  background-color: $pale-dogwood; // Changed from $accent-color to $pale-dogwood
+  background-color: $pale-dogwood;
   padding: 30px;
   margin-bottom: 30px;
   border-radius: 15px;
 }
 
 .featured-solution {
-  background-color: $eggshell; // Changed from $secondary-accent-color to $eggshell
+  background-color: $eggshell;
   padding: 60px 0;
   margin-top: 60px;
   box-shadow: none;
@@ -397,11 +397,11 @@ nav {
 }
 
 .page-header {
+  @extend .full-width-container;
   background-color: $header-bg-color;
-  color: $primary-bg-color;
-  text-align: center;
   padding: 60px 0;
-  margin-bottom: 40px;
+  margin: 0;
+  margin-top: -40px;
   position: relative;
   overflow: hidden;
 
@@ -417,8 +417,11 @@ nav {
   }
 
   h1 {
-    font-size: 3rem;
-    margin: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    color: $primary-bg-color;
+    line-height: 1.2;
     position: relative;
     z-index: 1;
   }
@@ -428,38 +431,6 @@ nav {
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
-
-  h2 {
-    color: $cta-color;
-    font-size: 2rem;
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-
-  p {
-    color: $licorice;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
-  }
-
-  ul {
-    color: $licorice;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    padding-left: 20px;
-  }
-
-  img {
-    width: 100vw;
-    max-width: none;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    height: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
 }
 
 form {
@@ -590,7 +561,6 @@ form {
   }
 }
 
-// Add this new container class
 .content-container {
   max-width: 800px;
   margin: 0 auto;
@@ -603,20 +573,11 @@ form {
   transform: translateX(-50%);
 }
 
-.full-width-image {
-  width: 100vw;
-  max-width: 100vw;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  height: auto;
-}
-
-// Update page header styles
 .page-header {
   @extend .full-width-container;
   background-color: $header-bg-color;
   padding: 60px 0;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 
   h1 {
     max-width: 800px;
@@ -626,13 +587,10 @@ form {
   }
 }
 
-// Update hero section styles
 .hero {
   @extend .full-width-container;
-  // ... (rest of hero styles)
 }
 
-// Update featured solution styles
 .featured-solution {
   @extend .full-width-container;
   background-color: $eggshell;
@@ -645,7 +603,6 @@ form {
   }
 }
 
-// Update footer CTA styles
 .footer-cta {
   @extend .full-width-container;
   background-color: $secondary-accent-color;
@@ -657,16 +614,6 @@ form {
     margin: 0 auto;
     padding: 0 20px;
   }
-}
-
-.home-content {
-  // Styles for the home page content
-}
-
-.content-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px 20px;
 }
 
 .services-highlights {
@@ -735,5 +682,3 @@ form {
     }
   }
 }
-
-// ... (rest of the styles remain unchanged)
