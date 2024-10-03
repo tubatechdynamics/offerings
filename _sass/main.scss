@@ -21,6 +21,7 @@ $gradient-overlay: linear-gradient(135deg, rgba(29, 20, 12, 0.8), rgba(179, 155,
 $box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 $transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 
+// Global Styles
 body {
   font-family: 'Open Sans', sans-serif;
   color: $primary-text-color;
@@ -29,6 +30,69 @@ body {
   padding: 0;
 }
 
+a {
+  color: $primary-text-color;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: $cta-color;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+  &:hover {
+    color: $cta-color;
+
+    &::after {
+      transform: scaleX(1);
+    }
+  }
+}
+
+blockquote {
+  font-style: italic;
+  color: $header-bg-color;
+  border-left: 4px solid $cta-color;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: rgba($accent-color, 0.1);
+  position: relative;
+
+  &::before {
+    content: '"';
+    font-size: 4em;
+    color: $cta-color;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    opacity: 0.3;
+  }
+
+  p {
+    margin: 0;
+    padding-left: 30px;
+  }
+
+  cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    color: $primary-text-color;
+    text-align: right;
+  }
+}
+
+// Layout Styles
 header {
   background-color: $header-bg-color;
   padding: 40px 20px;
@@ -42,19 +106,48 @@ header {
   height: auto;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 15px;
+nav {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $primary-bg-color;
+    font-weight: bold;
+
+    &::after {
+      display: none;
+    }
+
+    &:hover {
+      color: $cta-color;
+    }
+  }
 }
 
-nav a {
-  text-decoration: none;
+footer {
+  background-color: $header-bg-color;
   color: $primary-bg-color;
-  font-weight: bold;
+  text-align: center;
+  padding: 40px 20px;
 }
 
-// Updated hero section
+.full-width-image {
+  width: 100vw;
+  height: 56.25vw;
+  max-height: 80vh;
+  object-fit: cover;
+  object-position: center;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+// Page Styles
 .hero {
   position: relative;
   height: 70vh;
@@ -95,15 +188,6 @@ nav a {
   p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-  }
-}
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px $cta-color, 0 0 20px $cta-color;
-  }
-  to {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px $cta-color, 0 0 40px $cta-color;
   }
 }
 
@@ -153,31 +237,19 @@ nav a {
   padding: 30px;
   margin-bottom: 30px;
   border-radius: 15px;
-  transition: $transition;
-  opacity: 0;
-  transform: translateY(20px);
-
-  &.animate {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  &:hover {
-    transform: translateY(-10px);
-  }
 }
 
 .featured-solution {
   background-color: $secondary-accent-color;
-  padding: 60px 0; // Remove horizontal padding
+  padding: 60px 0;
   margin-top: 60px;
   box-shadow: none;
-  overflow-x: hidden; // Prevent horizontal scrolling
+  overflow-x: hidden;
 
   .content-wrapper {
-    padding: 0 20px; // Add padding to inner content
-    max-width: 1200px; // Set a max-width for larger screens
-    margin: 0 auto; // Center the content
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 
   img {
@@ -186,7 +258,6 @@ nav a {
     margin-bottom: 30px;
   }
 
-  // Override link color for better contrast
   a {
     color: $header-bg-color;
 
@@ -226,41 +297,10 @@ nav a {
   }
 }
 
-footer {
-  background-color: $header-bg-color;
-  color: $primary-bg-color;
-  text-align: center;
-  padding: 40px 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-form label {
-  margin-top: 10px;
-}
-
-form input, form textarea {
-  padding: 10px;
-  margin-top: 5px;
-}
-
-form button {
-  background-color: $cta-color;
-  color: $primary-text-color;
-  padding: 10px;
-  margin-top: 20px;
-  border: none;
-  cursor: pointer;
-}
-
-// Updated cool headers for internal pages
 .page-header {
   background-color: $header-bg-color;
-  padding: 30px 0; // Reduced from 40px
-  margin-bottom: 20px; // Reduced from 30px
+  padding: 30px 0;
+  margin-bottom: 20px;
   position: relative;
   overflow: hidden;
 
@@ -284,7 +324,7 @@ form button {
     position: relative;
     z-index: 1;
     text-align: center;
-    margin: 0 0 10px; // Added bottom margin
+    margin: 0 0 10px;
 
     &::after {
       content: '';
@@ -292,11 +332,46 @@ form button {
       width: 40px;
       height: 3px;
       background-color: $cta-color;
-      margin: 10px auto 0; // Reduced top margin
+      margin: 10px auto 0;
     }
   }
 }
 
+.page-content {
+  padding: 20px 20px;
+  overflow-x: hidden;
+
+  img {
+    @extend .full-width-image;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    margin-top: 10px;
+  }
+
+  input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+  }
+
+  button {
+    background-color: $cta-color;
+    color: $primary-text-color;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+// Animations
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -306,31 +381,16 @@ form button {
   }
 }
 
-// Updated padding for internal pages
-.page-content {
-  padding: 20px 20px;
-  overflow-x: hidden; // Prevent horizontal scrolling
-
-  img {
-    @extend .full-width-image;
-    margin-top: 30px;
-    margin-bottom: 30px;
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px $cta-color, 0 0 20px $cta-color;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px $cta-color, 0 0 40px $cta-color;
   }
 }
 
-// New full-width image styles
-.full-width-image {
-  width: 100vw;
-  height: 56.25vw; // This creates a 16:9 aspect ratio
-  max-height: 80vh; // Limit maximum height
-  object-fit: cover;
-  object-position: center;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
+// Media Queries
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -341,72 +401,7 @@ form button {
   }
 
   .full-width-image {
-    height: 56.25vw; // Maintain 16:9 ratio on mobile
+    height: 56.25vw;
     max-height: 56.25vw;
   }
-}
-
-// Global link styles
-a {
-  color: $primary-text-color;
-  font-weight: bold;
-  text-decoration: none;
-  position: relative;
-  transition: color 0.3s ease;
-
-  &::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -2px;
-    left: 0;
-    background-color: $cta-color;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-  }
-
-  &:hover {
-    color: $cta-color;
-
-    &::after {
-      transform: scaleX(1);
-    }
-  }
-}
-
-// Override styles for specific sections if needed
-.featured-solution {
-  a {
-    color: $header-bg-color;
-
-    &:hover {
-      color: darken($header-bg-color, 15%);
-    }
-  }
-}
-
-.footer-cta {
-  a {
-    &::after {
-      bottom: -5px;
-    }
-  }
-}
-
-nav a {
-  color: $primary-bg-color;
-
-  &::after {
-    display: none;
-  }
-
-  &:hover {
-    color: $cta-color;
-  }
-}
-
-// Remove the previously added content link styles
-.introduction, .services-highlights, .featured-solution {
-  // Remove any link styles here if they exist
 }
