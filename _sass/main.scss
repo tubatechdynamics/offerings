@@ -884,3 +884,16 @@ form {
     }
   }
 }
+
+.page-header {
+  margin-top: -2px; // Changed from -2rem to -2px
+  padding: 60px 0 40px;
+  background-color: $accent-color;
+  text-align: center;
+
+  h1 {
+    font-size: 2.5rem;
+    color: $licorice;
+    margin-bottom: 0;
+  }
+}
