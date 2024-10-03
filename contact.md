@@ -32,19 +32,27 @@ Tell us about your project, and we'll get back to you with a customized plan to 
   <label for="phone">Phone Number</label>
   <input type="tel" id="phone" name="phone">
 
-  <label>Services Interested In*</label>
+  <label>Services Interested In</label>
   <div class="checkbox-group">
-    <input type="checkbox" id="service1" name="services" value="Custom Internal Applications">
-    <label for="service1">Custom Internal Applications</label>
+    <div class="checkbox-item">
+      <input type="checkbox" id="service1" name="services" value="Custom Internal Applications">
+      <label for="service1">Custom Internal Applications</label>
+    </div>
 
-    <input type="checkbox" id="service2" name="services" value="AI-Powered Visualizations">
-    <label for="service2">AI-Powered Visualizations</label>
+    <div class="checkbox-item">
+      <input type="checkbox" id="service2" name="services" value="AI-Powered Visualizations">
+      <label for="service2">AI-Powered Visualizations</label>
+    </div>
 
-    <input type="checkbox" id="service3" name="services" value="Public Engagement Tools">
-    <label for="service3">Public Engagement Tools</label>
+    <div class="checkbox-item">
+      <input type="checkbox" id="service3" name="services" value="Public Engagement Tools">
+      <label for="service3">Public Engagement Tools</label>
+    </div>
 
-    <input type="checkbox" id="service4" name="services" value="Other">
-    <label for="service4">Other (please specify)</label>
+    <div class="checkbox-item">
+      <input type="checkbox" id="service4" name="services" value="Other">
+      <label for="service4">Other (please specify)</label>
+    </div>
   </div>
 
   <label for="message">Message*</label>

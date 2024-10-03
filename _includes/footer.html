@@ -1,3 +1,35 @@
-<footer>
-  <p>&copy; {{ site.time | date: "%Y" }} Tuba Tech Dynamics. All rights reserved.</p>
+<footer class="mega-footer">
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>Tuba Tech Dynamics empowers non-profits with custom technology solutions.</p>
+      <a href="{{ '/about' | relative_url }}">Learn More</a>
+    </div>
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="{{ '/services' | relative_url }}">Services</a></li>
+        <li><a href="{{ '/portfolio' | relative_url }}">Portfolio</a></li>
+        <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/about' | relative_url }}">About</a></li>
+        <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Get in Touch</h3>
+      <p>Have questions or want to discuss a project?</p>
+      <a href="{{ '/contact' | relative_url }}">Contact Us</a>
+    </div>
+    <!-- <div class="footer-section newsletter">
+      <h3>Stay Updated</h3>
+      <p>Subscribe to our newsletter for the latest updates and insights.</p>
+      <form action="#" method="post" class="newsletter-form">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div> -->
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; {{ site.time | date: "%Y" }} Tuba Tech Dynamics. All rights reserved.</p>
+  </div>
 </footer>

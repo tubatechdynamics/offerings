@@ -128,11 +128,80 @@ nav {
   }
 }
 
-footer {
+.mega-footer {
   background-color: $header-bg-color;
   color: $primary-bg-color;
+  padding: 60px 20px 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 30px;
+
+  h3 {
+    color: $cta-color;
+    margin-bottom: 15px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: $primary-bg-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $cta-color;
+    }
+  }
+}
+
+.newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+
+  input[type="email"] {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: $cta-color;
+    color: $primary-text-color;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: darken($cta-color, 10%);
+    }
+  }
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba($primary-bg-color, 0.1);
+  padding-top: 20px;
+  margin-top: 40px;
   text-align: center;
-  padding: 40px 20px;
 }
 
 .full-width-image {
@@ -406,7 +475,7 @@ form {
     flex-direction: column;
   }
 
-  .hero, .introduction, .services-highlights, .featured-solution, .footer-cta, .internal-page, header, footer, .page-content {
+  .hero, .introduction, .services-highlights, .featured-solution, .footer-cta, .internal-page, header, .page-content {
     padding: 20px 10px;
   }
 
@@ -414,4 +483,31 @@ form {
     height: 56.25vw;
     max-height: 56.25vw;
   }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    margin-bottom: 30px;
+  }
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin-bottom: 30px;
+  }
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.blog-post {
+  max-width: 800px;
+  margin: 0 auto;
 }
