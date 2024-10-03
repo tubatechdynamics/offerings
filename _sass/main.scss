@@ -66,6 +66,7 @@ blockquote {
   margin: 20px 0;
   background-color: rgba($accent-color, 0.1);
   position: relative;
+  overflow: hidden;
 
   &::before {
     content: '"';
@@ -80,6 +81,8 @@ blockquote {
   p {
     margin: 0;
     padding-left: 30px;
+    position: relative;
+    z-index: 1;
   }
 
   cite {
@@ -223,6 +226,7 @@ nav {
   background-image: url('/assets/images/hero-background.png');
   background-size: cover;
   background-position: center;
+  margin-bottom: 0; // Remove any bottom margin if present
 
   &::before {
     content: '';
@@ -293,8 +297,28 @@ nav {
   }
 }
 
-.introduction, .services-highlights, .featured-solution, .footer-cta, .internal-page {
-  padding: 40px 20px;
+.introduction {
+  background-color: $primary-bg-color;
+  padding: 60px 0;
+  text-align: center;
+  border-bottom: 1px solid $accent-color;
+
+  .content-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: $licorice;
+    margin-bottom: 0;
+  }
+}
+
+.services-highlights {
+  padding: 80px 0;
+  background-color: $eggshell;
 }
 
 .service {
@@ -374,50 +398,65 @@ nav {
 
 .page-header {
   background-color: $header-bg-color;
-  padding: 30px 0;
-  margin-bottom: 20px;
+  color: $primary-bg-color;
+  text-align: center;
+  padding: 60px 0;
+  margin-bottom: 40px;
   position: relative;
   overflow: hidden;
 
   &::before {
     content: '';
     position: absolute;
-    top: -100%;
-    left: -100%;
-    width: 300%;
-    height: 300%;
-    background: radial-gradient(circle, $satin-sheen-gold 0%, transparent 70%);
-    opacity: 0.1;
-    animation: rotate 30s linear infinite;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba($cta-color, 0.1) 0%, transparent 70%);
+    animation: rotate 60s linear infinite;
   }
 
   h1 {
-    color: $primary-bg-color;
-    font-size: 2.2rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    font-size: 3rem;
+    margin: 0;
     position: relative;
     z-index: 1;
-    text-align: center;
-    margin: 0 0 10px;
-
-    &::after {
-      content: '';
-      display: block;
-      width: 40px;
-      height: 3px;
-      background-color: $cta-color;
-      margin: 10px auto 0;
-    }
   }
 }
 
 .page-content {
-  padding: 20px 20px;
-  overflow-x: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+
+  h2 {
+    color: $cta-color;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: $licorice;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    color: $licorice;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
 
   img {
-    @extend .full-width-image;
+    width: 100vw;
+    max-width: none;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -522,8 +561,32 @@ form {
 }
 
 .blog-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  header {
+    margin-bottom: 30px;
+
+    h1 {
+      margin-bottom: 10px;
+    }
+  }
+
+  .post-meta {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+
   img {
     @extend .full-width-image;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  p, ul, ol {
+    margin-bottom: 20px;
   }
 }
 
@@ -553,7 +616,7 @@ form {
   @extend .full-width-container;
   background-color: $header-bg-color;
   padding: 60px 0;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 
   h1 {
     max-width: 800px;
@@ -593,6 +656,83 @@ form {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
+  }
+}
+
+.home-content {
+  // Styles for the home page content
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.services-highlights {
+  padding: 60px 0;
+  background-color: $eggshell;
+}
+
+.service {
+  background-color: $primary-bg-color;
+  padding: 40px;
+  margin-bottom: 40px;
+  border-left: 4px solid $cta-color;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgba($cta-color, 0.05);
+  }
+
+  h2 {
+    color: $licorice;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: $cta-color;
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+      transform-origin: left;
+    }
+  }
+
+  &:hover h2::after {
+    transform: scaleX(1);
+  }
+
+  p, ul {
+    color: $licorice;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+      position: relative;
+      padding-left: 25px;
+      margin-bottom: 10px;
+
+      &::before {
+        content: '•';
+        position: absolute;
+        left: 0;
+        color: $cta-color;
+        font-size: 1.2em;
+      }
+    }
   }
 }
 

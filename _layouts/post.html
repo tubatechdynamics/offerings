@@ -2,5 +2,13 @@
 layout: default
 ---
 <article class="blog-post">
+  <p class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date: "%B %-d, %Y" }}
+    </time>
+    {% if page.author %}
+      • <span>{{ page.author }}</span>
+    {% endif %}
+  </p>
   {{ content }}
 </article>

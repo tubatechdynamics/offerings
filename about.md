@@ -23,15 +23,17 @@ Our journey began with a simple idea: to make advanced technological solutions a
 
 Jaycee is a visionary software developer whose career spans over two decades in the tech industry. With a knack for innovation and a relentless drive to solve complex problems, Jaycee leads our technical team in crafting custom applications that propel non-profits forward. Their expertise lies not only in writing impeccable code but also in understanding how technology can be harnessed to create real-world impact.
 
-*“Technology should not just serve business—it should serve humanity. At Tuba Tech Dynamics, I strive to develop solutions that empower those who empower others.”*
-— **Jaycee Lydian**
+> Technology should not just serve business—it should serve humanity. At Tuba Tech Dynamics, I strive to develop solutions that empower those who empower others.
+>
+> <cite>Jaycee Lydian</cite>
 
 ### Jude Evangeline
 
 Bringing a unique blend of social work experience and technological insight, Jude serves as the bridge between the tech world and the non-profit sector. With a deep understanding of the challenges faced by non-profit organizations, Jude ensures that our solutions are not only technically robust but also aligned with the real-world needs of those we serve. Their empathetic approach guarantees that our technology doesn't just work—it makes a meaningful difference.
 
-*“Understanding the heart of non-profit work allows us to tailor technology that truly supports and enhances their mission.”*
-— **Jude Evangeline**
+> Understanding the heart of non-profit work allows us to tailor technology that truly supports and enhances their mission.
+>
+> <cite>Jude Evangeline</cite>
 
 ![A professional photograph of Jaycee and Jude standing together in an office environment, smiling and approachable.](assets/images/team.png)
 
