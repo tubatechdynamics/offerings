@@ -6,7 +6,7 @@ author: Jaycee Lydian
 categories: [AI, Nonprofits, Technology]
 ---
 
-![Illustration of a friendly AI chatbot on a computer screen with diverse volunteers smiling back, stylized tech devices like smartphones and laptops, and a small cat mascot peeking from the corner.](/assets/images/blog/u3343843948_AI_Chatbot_Interacting_with_Volunteers_A_sleek_mo_2b4ae049-a138-46b2-b1ea-4da6f285e078_1)
+![Illustration of a friendly AI chatbot on a computer screen with diverse volunteers smiling back, stylized tech devices like smartphones and laptops, and a small cat mascot peeking from the corner.](/assets/images/blog/u3343843948_AI_Chatbot_Interacting_with_Volunteers_A_sleek_mo_2b4ae049-a138-46b2-b1ea-4da6f285e078_1.png)
 
 In the world of non-profits, volunteers are the lifeblood driving initiatives and supporting communities. Small non-profits often face unique challenges in managing volunteers due to limited staff, tight budgets, and the need for effective engagement and communication. As technology evolves, AI chatbots have emerged as powerful tools to alleviate these challenges by automating repetitive tasks, improving communication, and enhancing the volunteer experience.
 

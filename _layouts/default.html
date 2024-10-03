@@ -3,7 +3,7 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    <main>
+    <main class="content-container">
       {{ content }}
     </main>
     {% include footer.html %}
@@ -15,7 +15,5 @@
       gtag('js', new Date());
       gtag('config', '{{ site.google_analytics }}');
     </script>
-    <!-- Local JavaScript -->
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
   </body>
 </html>
