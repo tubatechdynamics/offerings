@@ -3,6 +3,7 @@ layout: page
 title: "Portfolio"
 meta_title: "Portfolio | Tuba Tech Dynamics"
 meta_description: "Explore how Tuba Tech Dynamics has helped non-profit organizations achieve their goals through innovative technology solutions."
+permalink: /portfolio/
 ---
 
 We’re proud to share some of the impactful work we’ve done with inspiring non-profit organizations. Here’s a look at how we’ve helped our clients boost their digital capabilities and amplify their missions.

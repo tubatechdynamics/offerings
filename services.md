@@ -3,6 +3,7 @@ layout: page
 title: "Services"
 meta_title: "Services | Tuba Tech Dynamics"
 meta_description: "Explore the range of technology solutions offered by Tuba Tech Dynamics, including custom internal applications, AI-powered tools, and public engagement solutions for non-profits."
+permalink: /services/
 ---
 
 Our services are crafted to address the unique challenges faced by non-profit organizations. At Tuba Tech Dynamics, we deliver innovative technology solutions that streamline your operations, deepen your data insights, and engage your audience in meaningful ways—all with a touch of creativity and a focus on real-world impact.

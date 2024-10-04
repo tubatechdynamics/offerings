@@ -3,6 +3,7 @@ layout: page
 title: "Contact Us"
 meta_title: "Contact Us | Tuba Tech Dynamics"
 meta_description: "Get in touch with Tuba Tech Dynamics to discuss your non-profit's technology needs. We're here to help you amplify your impact."
+permalink: /contact/
 ---
 
 We’re thrilled to learn more about your organization and explore how we can support your mission. Whether you have questions about our services, want to brainstorm a new project, or simply want to say hello, our team is ready to guide you every step of the way.

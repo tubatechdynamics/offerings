@@ -3,6 +3,7 @@ layout: page
 title: "About Us"
 meta_title: "About Us | Tuba Tech Dynamics"
 meta_description: "Learn about Tuba Tech Dynamics, our mission, our team, and why we're passionate about empowering non-profit organizations with innovative technology solutions."
+permalink: /about/
 ---
 
 At **Tuba Tech Dynamics**, we're not just another tech company—we're your trusty sidekick in sparking positive change. By fusing our tech prowess with a genuine passion for social good, we empower non-profit organizations to amplify their impact through innovative, tailor-made solutions designed to purr-fectly fit their unique needs.
