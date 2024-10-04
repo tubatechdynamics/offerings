@@ -6,6 +6,7 @@ meta_description: "A detailed guide for small nonprofits on using ChatGPT to wri
 date: 2024-10-03
 author: Tuba Tech Dynamics
 categories: [Grant Writing, Nonprofits, ChatGPT, Guides]
+permalink: /resources/ai-grant-writing/
 ---
 
 ## Introduction
