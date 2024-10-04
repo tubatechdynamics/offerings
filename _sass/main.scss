@@ -950,3 +950,33 @@ form {
     }
   }
 }
+
+.prompt-block {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1em;
+  position: relative;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.copy-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2px 5px;
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.copy-button:hover {
+  opacity: 1;
+}
