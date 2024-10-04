@@ -25,7 +25,7 @@ Jaycee is a trailblazing software developer whose career spans over two decades 
 
 > "Technology isn't just a tool; it’s a catalyst for change. When it’s done right, it doesn’t just solve problems—it opens doors. At Tuba Tech Dynamics, I’m not just coding solutions; I’m building pathways for impact that ripple out far beyond the screen."
 >
-> — *Jaycee Lydian*
+> <cite>Jaycee Lydian</cite>
 
 ### Jude Evangeline
 
@@ -33,7 +33,7 @@ Blending a unique mix of social work experience and technological savvy, Jude se
 
 > "Non-profits are more than just organizations—they’re lifelines for communities. Our job is to make sure technology becomes an extension of their mission, not a roadblock. We create solutions that meet them where they are and help them get to where they want to be."
 >
-> — *Jude Evangeline*
+> <cite>Jude Evangeline</cite>
 
 ![A professional photograph of Jaycee and Jude standing together in an office environment, smiling and approachable.](assets/images/team.png)
 
