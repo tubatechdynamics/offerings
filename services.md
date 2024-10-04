@@ -43,7 +43,7 @@ Build stronger connections and inspire deeper engagement with our tailored publi
 
 Unlock the full potential of artificial intelligence with our diverse range of AI-powered solutions tailored for non-profits. At Tuba Tech Dynamics, we go beyond visualizations to offer tools that enhance every facet of your organization—from securing funding to optimizing your outreach strategies. Let’s explore how our AI offerings can make your mission purr with efficiency:
 
-![AI integration with various non-profit activities, including grant writing and data analysis.](assets/images/ai-solutions.png)
+![AI integration with various non-profit activities, including grant writing and data analysis.](assets/images/ai-visualizations.png)
 
 ### AI-Enhanced Grant Writing
 
