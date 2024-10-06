@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Launch Your Digital Presence with Tuba Tech Dynamics"
+title: "Services"
 meta_title: "Digital Presence Solutions | Tuba Tech Dynamics"
 meta_description: "Create a professional, high-impact online presence that showcases your mission and grows with your organization. Explore Tuba Tech Dynamics’ full suite of services."
 permalink: /services/
