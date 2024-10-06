@@ -13,7 +13,34 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', '{{ site.google_analytics }}');
+      gtag('config', '{{ site.google_analytics }}', {
+        'send_page_view': true,
+        'custom_map': {
+          'dimension1': 'page_path',
+          'dimension2': 'user_agent'
+        }
+      });
+
+      // Track form submissions
+      document.addEventListener('submit', function(event) {
+        if (event.target.tagName === 'FORM') {
+          gtag('event', 'form_submission', {
+            'event_category': 'Contact',
+            'event_label': event.target.getAttribute('action')
+          });
+        }
+      });
+
+      // Track outbound links
+      document.addEventListener('click', function(event) {
+        var link = event.target.closest('a');
+        if (link && link.hostname !== window.location.hostname) {
+          gtag('event', 'outbound_link', {
+            'event_category': 'Engagement',
+            'event_label': link.href
+          });
+        }
+      });
     </script>
     <!-- End Google Analytics -->
     <!-- MailerLite Universal -->
