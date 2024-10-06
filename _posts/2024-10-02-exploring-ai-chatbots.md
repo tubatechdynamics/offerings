@@ -21,7 +21,7 @@ Managing volunteers as a small non-profit comes with some unique hurdles, like:
 - **Limited Resources**: With a lean staff and tight budgets, dedicating enough time to organizing volunteer efforts can feel like herding cats.
 - **Communication Barriers**: Without a solid system in place, communication can become as tangled as a ball of yarn, leaving volunteers feeling out of the loop.
 - **Scheduling Conflicts**: Manually coordinating availability can lead to overlapping shifts, missed slots, and general inefficiencies.
-- **Volunteer Engagement**: Without proper support and recognition, volunteers can become as aloof as a cat in the sun, leading to higher turnover.
+- **Volunteer Engagement**: Without proper support and recognition, volunteers can become disengaged, leading to higher turnover.
 - **Tracking Impact and Feedback**: Monitoring volunteer contributions and collecting feedback can be as tricky as getting a cat to sit still without the right tools.
 
 Addressing these issues is key to building a strong, committed volunteer base and making a bigger impact.
