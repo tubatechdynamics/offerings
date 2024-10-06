@@ -24,9 +24,23 @@
       // Track form submissions
       document.addEventListener('submit', function(event) {
         if (event.target.tagName === 'FORM') {
+          var formAction = event.target.getAttribute('action');
+          var eventCategory, eventLabel;
+          
+          if (formAction.includes('formsubmit.co')) {
+            eventCategory = 'Contact Form';
+            eventLabel = 'Contact Form Submission';
+          } else if (formAction.includes('mailerlite.com')) {
+            eventCategory = 'Newsletter';
+            eventLabel = 'Newsletter Subscription';
+          } else {
+            eventCategory = 'Other Form';
+            eventLabel = formAction;
+          }
+
           gtag('event', 'form_submission', {
-            'event_category': 'Contact',
-            'event_label': event.target.getAttribute('action')
+            'event_category': eventCategory,
+            'event_label': eventLabel
           });
         }
       });
