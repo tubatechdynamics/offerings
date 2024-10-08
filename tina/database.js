@@ -6,6 +6,7 @@ import { GitHubProvider } from 'tinacms-gitprovider-github'
 // Change this to your chosen database adapter
 import { Redis } from '@upstash/redis'
 import { RedisLevel } from 'upstash-redis-level'
+import { createClient } from 'redis'
 
 // Manage this flag in your CI/CD pipeline and make sure it is set to false in production
 const isLocal = process.env.TINA_PUBLIC_IS_LOCAL === 'true'
@@ -33,10 +34,7 @@ export default isLocal
       }),
       // May vary depending on your database adapter
       databaseAdapter: new RedisLevel({
-        redis: new Redis({
-          url: process.env.KV_REST_API_URL || 'http://localhost:8079',
-          token: process.env.KV_REST_API_TOKEN || 'example_token',
-        }),
+        redis: createClient({ url: process.env.KV_REST_API_URL }),
         debug: process.env.DEBUG === 'true' || false,
         namespace: branch,
       }),
