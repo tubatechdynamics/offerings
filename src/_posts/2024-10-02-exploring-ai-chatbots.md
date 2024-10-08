@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: post.njk
+templateEngineOverride: njk,md
+tags: post
 title: "Exploring AI Chatbots: How Small Non-Profits Can Use Automation to Manage Volunteers"
 date: 2024-10-03
 author: Jaycee Lydian
-categories: [AI, Nonprofits, Technology]
+categories: [AI, Nonprofits, Technology]  
 ---
 For smaller organizations, coordinating volunteers can be a bit of a cat-and-mouse game—especially when you're working with a lean team, tight budgets, and the challenge of keeping everyone engaged. That's where AI chatbots come in to streamline communication, lighten the workload, and ultimately give your volunteers a purr-fect experience.
 

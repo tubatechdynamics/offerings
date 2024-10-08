@@ -2,8 +2,8 @@
 layout: default.njk
 ---
 <header class="page-header">
-  <h1>{{ page.title }}</h1>
+  <h1>{{ title }}</h1>
 </header>
 <article class="page-content content-wrapper">
-  {{ content }}
+  {{ content | safe }}
 </article>
