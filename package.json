@@ -17,6 +17,7 @@
     "dotenv": "^16.4.5",
     "next-auth": "^4.24.8",
     "nunjucks": "^3.2.4",
+    "redis": "^4.7.0",
     "sass": "^1.79.4",
     "tinacms": "^2.2.8",
     "tinacms-authjs": "^5.0.8",
