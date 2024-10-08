@@ -3,7 +3,7 @@ import { createDatabase, createLocalDatabase } from '@tinacms/datalayer'
 // Change this to your chosen git provider
 import { GitHubProvider } from 'tinacms-gitprovider-github'
 import { RedisLevel } from 'upstash-redis-level'
-import { createClient } from 'redis'
+import { createClient } from 'ioredis'
 // Manage this flag in your CI/CD pipeline and make sure it is set to false in production
 const isLocal = process.env.TINA_PUBLIC_IS_LOCAL === 'true'
 
