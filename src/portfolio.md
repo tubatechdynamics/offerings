@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page.njk
 title: "Portfolio"
 meta_title: "Portfolio | Tuba Tech Dynamics"
 meta_description: "Explore how Tuba Tech Dynamics has helped non-profit organizations achieve their goals through innovative technology solutions."
@@ -10,7 +10,7 @@ We’re proud to share some of the impactful work we’ve done with inspiring no
 
 ## Project Showcase
 
-### EmpowerEd Initiative {#case-study-empowered}
+### EmpowerEd Initiative
 
 ![Logo design for 'EmpowerEd Initiative', featuring a stylized book and rising sun.](assets/images/empowered-initiative.png)
 

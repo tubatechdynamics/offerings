@@ -1,0 +1,25 @@
+{
+  "name": "tubatech-offerings",
+  "version": "1.0.0",
+  "description": "A custom Eleventy site with blog post generation",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "serve": "serve _site"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nunjucks": "^3.2.4",
+    "sass": "^1.79.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
