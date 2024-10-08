@@ -1,12 +1,8 @@
 import { createDatabase, createLocalDatabase } from '@tinacms/datalayer'
 import { GitHubProvider } from 'tinacms-gitprovider-github'
 import { RedisLevel } from 'upstash-redis-level'
-import Redis from 'ioredis'
+import redis from 'ioredis'
 
-// Change this to your chosen git provider
-import { GitHubProvider } from 'tinacms-gitprovider-github'
-import { RedisLevel } from 'upstash-redis-level'
-import Redis from 'ioredis'
 // Manage this flag in your CI/CD pipeline and make sure it is set to false in production
 const isLocal = process.env.TINA_PUBLIC_IS_LOCAL === 'true'
 
@@ -19,7 +15,7 @@ if (!branch) {
   )
 }
 
-const redisInstance = new Redis({
+const redisInstance = new redis({
   url: process.env.KV_REST_API_URL,
   token: process.env.KV_REST_API_TOKEN,
 });
@@ -34,7 +30,8 @@ const redisWrapper = {
     // ioredis expects zrem to be called with (key, member)
     return await redisInstance.zrem(key, member);
   },
-  // Add other methods as needed
+  url: process.env.KV_REST_API_URL,
+  token: process.env.KV_REST_API_TOKEN,
 };
 
 export default isLocal
