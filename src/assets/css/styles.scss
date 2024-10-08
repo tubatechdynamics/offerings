@@ -4,7 +4,32 @@
 // Import Google Fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
-// Color palette
+// new color palette
+$pale-purple: #e5d4edff;
+$aquamarine: #9DEDD5;
+$dark-cyan: #188C7F;
+$darkest-cyan: #062320;
+$light-blue: #C1E1E1;
+$lavender: #D3DBE7;
+$medium-slate-blue: #6d72c3ff;
+$rebecca-purple: #5941a9ff;
+$dark-purple: #341F47;
+$darkest-purple: #1d1128ff;
+$black: #000000;
+$davys-gray: #514f59ff;
+$white: #ffffff;
+// Define base color and variations
+$gradient-base-color: $dark-cyan;
+// $color-variation-1: lighten($gradient-base-color, 10%);
+// $color-variation-2: lighten($gradient-base-color, 25%);
+// $color-variation-3: lighten($gradient-base-color, 30%);
+
+// To make them darker instead, you can use:
+$color-variation-1: darken($gradient-base-color, 10%);
+$color-variation-2: darken($gradient-base-color, 20%);
+$color-variation-3: darken($gradient-base-color, 25%);
+
+// old clor palette
 $black: #000000;
 $licorice: #1d140c;
 $eggshell: #f0e8d5;
@@ -14,16 +39,18 @@ $deep-brown: #1c110a;
 $darker-brown: #140c07;
 $near-black: #080504;
 
+
 // Color usage
-$primary-text-color: $black;
-$header-bg-color: $licorice;
+$primary-text-color: $davys-gray;
+$header-bg-color: $medium-slate-blue;
 $primary-bg-color: #ffffff;
-$accent-color: $eggshell;
-$secondary-accent-color: $pale-dogwood;
-$cta-color: $satin-sheen-gold;
+$accent-color: $pale-purple;
+$secondary-accent-color: $rebecca-purple;
+$cta-color: $darkest-purple;
+$nav-color: $pale-purple;
 
 // Additional variables
-$gradient-overlay: linear-gradient(135deg, rgba(29, 20, 12, 0.8), rgba(179, 155, 69, 0.8));
+$gradient-overlay: linear-gradient(135deg, rgba($aquamarine, 0.8), rgba($dark-cyan, 0.8));
 $box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 $transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 
@@ -33,6 +60,8 @@ body {
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
+  color: $primary-text-color;
+  background-color: $primary-bg-color;
 }
 
 .container {
@@ -54,17 +83,17 @@ p {
 
 // Links
 a {
-  color: darken($cta-color, 10%);
+  color: $rebecca-purple;
   text-decoration: underline;
   text-underline-offset: 2px;
   transition: color 0.3s ease;
 
   &:visited {
-    color: darken($cta-color, 15%);
+    color: darken($rebecca-purple, 15%);
   }
 
   &:hover, &:focus {
-    color: $cta-color;
+    color: $medium-slate-blue;
   }
 }
 
@@ -106,17 +135,18 @@ a {
   100% { background-position: 100% 0; }
 }
 
+// Update header gradient
 header {
   background: linear-gradient(
     135deg,
-    $near-black 0%,
-    $near-black 25%,
-    $darker-brown 25%,
-    $darker-brown 50%,
-    $deep-brown 50%,
-    $deep-brown 75%,
-    $licorice 75%,
-    $licorice 100%
+    $color-variation-3 0%,
+    $color-variation-3 25%,
+    $color-variation-2 25%,
+    $color-variation-2 50%,
+    $color-variation-1 50%,
+    $color-variation-1 75%,
+    $gradient-base-color 75%,
+    $gradient-base-color 100%
   );
   background-size: 200% 100%;
   animation: slideRight 60s linear infinite;
@@ -139,8 +169,14 @@ header {
     align-items: center;
     flex-shrink: 0;
 
-    img {
-      max-width: 150px;
+    .logo-mark {
+      max-width: 80px; // Increased size for logo-mark
+      height: auto;
+      margin-right: 10px; // Add some space between mark and text
+    }
+
+    .logo-text {
+      max-width: 200px; // Slightly increased size for logo-text
       height: auto;
     }
   }
@@ -156,18 +192,18 @@ header {
     }
 
     a {
-      color: $accent-color;
+      color: $nav-color;
       text-decoration: none;
       transition: color 0.3s ease;
       font-weight: bold;
       text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 
       &:visited {
-        color: $accent-color;
+        color: $nav-color;
       }
 
       &:hover, &:focus {
-        color: $cta-color;
+        color: lighten($nav-color, 10%);
       }
     }
   }
@@ -259,21 +295,21 @@ main {
   100% { background-position: 0 0; }
 }
 
+// Update page-header and post-header gradient
 .page-header,
 .post-header {
-  width: 100%;
   background: linear-gradient(
     -45deg,
-    $licorice 0%,
-    $licorice 20%,
-    $deep-brown 20%,
-    $deep-brown 40%,
-    $darker-brown 40%,
-    $darker-brown 60%,
-    $near-black 60%,
-    $near-black 80%,
-    $licorice 80%,
-    $licorice 100%
+    $color-variation-3 0%,
+    $color-variation-3 20%,
+    $color-variation-2 20%,
+    $color-variation-2 40%,
+    $color-variation-1 40%,
+    $color-variation-1 60%,
+    $gradient-base-color 60%,
+    $gradient-base-color 80%,
+    $color-variation-3 80%,
+    $color-variation-3 100%
   );
   background-size: 200% 100%;
   animation: slideLeft 60s linear infinite;
@@ -285,7 +321,7 @@ main {
   overflow: hidden;
 
   > h1 {
-    color: $eggshell !important;
+    color: $primary-bg-color !important;
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
@@ -303,7 +339,7 @@ main {
   .post-header {
     // Additional styles specific to blog post headers
     .post-meta {
-      color: $pale-dogwood;
+      color: $pale-purple;
       font-size: 0.9rem;
       margin-top: 0.5rem;
       text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
@@ -357,7 +393,7 @@ img {
 
 // Footer
 .mega-footer {
-  background-color: $header-bg-color;
+  background-color: $dark-purple;
   color: $primary-bg-color;
   padding: 60px 20px 20px;
 
@@ -375,7 +411,7 @@ img {
     margin-bottom: 30px;
 
     h3 {
-      color: $cta-color;
+      color: $pale-purple;
       margin-bottom: 15px;
     }
 
@@ -392,7 +428,7 @@ img {
       color: $primary-bg-color;
 
       &:hover, &:focus {
-        color: $cta-color;
+        color: $pale-purple;
       }
     }
   }
@@ -445,7 +481,8 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(rgba($licorice, 0.7), rgba($licorice, 0.5)); // Gradient overlay
+    opacity: 0.5;
+    background: $gradient-overlay; // Gradient overlay
     z-index: 1;
   }
 
@@ -453,7 +490,7 @@ img {
     position: relative;
     z-index: 2;
     text-align: center;
-    color: $eggshell; // Changed to eggshell for better contrast
+    color: $white;
     max-width: 800px;
     padding: 0 20px;
   }
@@ -464,7 +501,7 @@ img {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    color: $pale-dogwood; // Keep pink color for header
+    color: $white;
   }
 
   p {
@@ -497,7 +534,7 @@ img {
 }
 
 .introduction {
-  background-color: $licorice;
+  background-color: $lavender;
   padding: 60px 0;
   text-align: center;
 
@@ -510,24 +547,24 @@ img {
   p {
     font-size: 1.25rem;
     line-height: 1.8;
-    color: $eggshell;
+    color: $davys-gray;
     margin-bottom: 0;
   }
 }
 
 .services-highlights {
   padding: 80px 0;
-  background-color: $eggshell;
+  background-color: $primary-bg-color;
 
   .service {
-    background-color: $primary-bg-color;
+    background-color: $pale-purple;
     padding: 40px;
     margin-bottom: 40px;
-    border-left: 4px solid $cta-color;
+    border-left: 4px solid $rebecca-purple;
     border-radius: 10px;
 
     h2 {
-      color: $licorice;
+      color: $darkest-purple;
       font-size: 2rem;
       margin-bottom: 20px;
       position: relative;
@@ -541,12 +578,12 @@ img {
         left: 0;
         width: 100%;
         height: 2px;
-        background-color: $cta-color; // This is your gold color
+        background-color: $rebecca-purple; // This is your gold color
       }
     }
 
     p, ul {
-      color: $licorice;
+      color: $davys-gray;
       font-size: 1.1rem;
       line-height: 1.6;
     }
@@ -564,7 +601,7 @@ img {
           content: '•';
           position: absolute;
           left: 0;
-          color: $cta-color;
+          color: $rebecca-purple;
           font-size: 1.2em;
         }
       }
@@ -573,8 +610,8 @@ img {
 }
 
 .featured-solution {
-  background-color: $licorice;
-  color: $eggshell;
+  background-color: $pale-purple;
+  color: $davys-gray;
   padding: 80px 0;
   margin-top: 0;
   overflow-x: hidden;
@@ -582,7 +619,7 @@ img {
 
   h2 {
     font-size: 2.5rem;
-    color: $cta-color;
+    color: $darkest-purple;
     margin-bottom: 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -609,13 +646,13 @@ img {
   }
 
   a {
-    color: $cta-color;
+    color: $rebecca-purple;
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s ease;
 
     &:hover {
-      color: lighten($cta-color, 15%);
+      color: $medium-slate-blue;
     }
   }
 }
@@ -636,7 +673,7 @@ img {
 
 .action-banner {
   @extend .full-width-container;
-  background-color: $secondary-accent-color;
+  background-color: $medium-slate-blue;
   padding: 60px 20px;
   margin-top: 0;
   text-align: center;
@@ -647,17 +684,17 @@ img {
   }
 
   h2 {
-    color: $licorice;
+    color: $primary-bg-color;
     font-size: 2rem;
     margin-bottom: 30px;
     line-height: 1.3;
   }
 
   .action-button {
-    background-color: $cta-color;
+    background-color: $darkest-purple;
     color: $primary-bg-color;
     padding: 15px 30px;
-    border: 2px solid $cta-color;
+    border: 2px solid $darkest-purple;
     border-radius: 50px;
     font-weight: bold;
     text-transform: uppercase;
@@ -668,7 +705,7 @@ img {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 
     &:hover, &:focus {
-      background-color: darken($cta-color, 10%);
+      background-color: darken($darkest-purple, 10%);
       color: $primary-bg-color;
       transform: translateY(-2px);
       box-shadow: 0 6px 8px rgba(0,0,0,0.15);
@@ -986,19 +1023,19 @@ form {
 
 // Blockquote styles
 blockquote {
-  background-color: lighten($eggshell, 5%);
-  border-left: 5px solid $cta-color;
+  background-color: lighten($pale-purple, 5%);
+  border-left: 5px solid $rebecca-purple;
   margin: 1.5em 0;
   padding: 1.5em 1.5em 1em 3em;
   position: relative;
-  color: $licorice;
+  color: $davys-gray;
   box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 
   &::before {
     content: '\201C';
     font-size: 4em;
     font-family: Georgia, serif;
-    color: rgba($cta-color, 0.2);
+    color: rgba($rebecca-purple, 0.2);
     position: absolute;
     left: 10px;
     top: -10px;
@@ -1018,7 +1055,7 @@ blockquote {
     display: block;
     margin-top: 1em;
     font-size: 0.9em;
-    color: darken($licorice, 20%);
+    color: $dark-purple;
     font-style: normal;
     text-align: right;
     font-weight: bold;
