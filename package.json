@@ -20,7 +20,8 @@
     "sass": "^1.79.4",
     "tinacms": "^2.2.8",
     "tinacms-authjs": "^5.0.8",
-    "tinacms-gitprovider-github": "^2.0.4"
+    "tinacms-gitprovider-github": "^2.0.4",
+    "upstash-redis-level": "^1.1.1"
   },
   "engines": {
     "node": ">=18.0.0"
