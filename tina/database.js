@@ -34,7 +34,11 @@ export default isLocal
       }),
       // May vary depending on your database adapter
       databaseAdapter: new RedisLevel({
-        redis: createClient({ url: process.env.KV_REST_API_URL }),
+        redis: createClient({
+          url: process.env.KV_REST_API_URL || (() => {
+            throw new Error('KV_REST_API_URL environment variable is not set');
+          })(),
+        }),
         debug: process.env.DEBUG === 'true' || false,
         namespace: branch,
       }),
