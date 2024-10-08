@@ -4,9 +4,14 @@
   "description": "A custom Eleventy site with blog post generation",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
-    "start": "eleventy --serve",
-    "serve": "serve _site"
+    "11ty:build": "eleventy",
+    "11ty:start": "eleventy --serve",
+    "11ty:serve": "serve _site",
+    "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"next dev\"",
+    "dev:prod": "TINA_PUBLIC_IS_LOCAL=false tinacms dev -c \"next dev\"",
+    "build": "tinacms build --partial-reindex && npx @11ty/eleventy && next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "",

@@ -1,31 +1,28 @@
-_site
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Cache and metadata
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
+# testing
+/coverage
 
-# Node modules
-node_modules
+# next.js
+/.next/
+/out/
 
-# Logs
+# production
+/build
+
+# 11ty
+/_site
+
+# misc
+.DS_Store
+.env
+.env.local
+.idea
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Optional: if you use a build tool like Gulp or Webpack
-dist
-build
-
-# Optional: if you use a package manager like Yarn
-.yarn-integrity
-.pnp.*
-
-# Optional: if you use a code editor like VSCode
-.vscode/
-
-.env
