@@ -15,10 +15,7 @@ if (!branch) {
   )
 }
 
-const redisInstance = new redis({
-  url: process.env.KV_REST_API_URL,
-  token: process.env.KV_REST_API_TOKEN,
-});
+const redisInstance = new redis(process.env.KV_REST_API_URL);
 
 // Create a wrapper for the redisInstance
 const redisWrapper = {
