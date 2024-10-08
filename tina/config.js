@@ -1,4 +1,8 @@
 import { defineConfig } from "tinacms";
+import {
+  TinaUserCollection,
+  UsernamePasswordAuthJSProvider,
+} from 'tinacms-authjs/dist/tinacms';
 
 // Your hosting provider likely exposes this as an environment variable
 const branch =
@@ -9,11 +13,14 @@ const branch =
 
 export default defineConfig({
   branch,
-
-  // Get this from tina.io
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
-  // Get this from tina.io
   token: process.env.TINA_TOKEN,
+  isLocal: process.env.NODE_ENV === 'development',
+  contentApiUrlOverride: '/api/tina/gql',
+  authProvider: 
+    process.env.NODE_ENV === 'development'
+      ? new LocalAuthProvider()
+      : new UsernamePasswordAuthJSProvider(),
 
   build: {
     outputFolder: "admin",
@@ -28,6 +35,7 @@ export default defineConfig({
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
+      TinaUserCollection,
       {
         name: "pages",
         label: "Pages",

@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "name": "Jaycee",
+      "email": "scragz@gmail.com",
+      "username": "tinauser",
+      "password": {
+        "value": "tinarocks",
+        "passwordChangeRequired": true
+      }
+    }
+  ]
+}

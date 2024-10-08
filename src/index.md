@@ -1,5 +1,6 @@
 ---
 layout: default.njk
+templateEngineOverride: njk,md
 permalink: /
 
 title: "Tuba Tech Dynamics | Empowering Non-Profits with Innovative Technology"

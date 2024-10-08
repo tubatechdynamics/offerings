@@ -1,6 +1,7 @@
 ---
 layout: default.njk
 permalink: /blog.html
+templateEngineOverride: njk,md
 
 title: Blog
 ---
