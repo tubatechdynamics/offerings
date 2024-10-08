@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@tinacms/datalayer": "^1.3.4",
+    "@upstash/redis": "^1.34.2",
     "dotenv": "^16.4.5",
     "next-auth": "^4.24.8",
     "nunjucks": "^3.2.4",
