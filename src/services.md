@@ -60,7 +60,7 @@ When it’s time to take your organization’s impact to the next level, our Imp
 
 **Ideal For**: Established organizations ready to scale their operations and measure their impact on a larger scale.
 
-![Illustration of a nonprofit leader analyzing impact measurement data on a digital dashboard.](/assets/images/ai-visualizations.png)
+![Illustration of a catapult launching a stylized emblem into the sky, surrounded by tech icons like laptops and servers, with a small cat mascot peeking from the corner.](/assets/images/ai-visualizations.png)
 
 ***
 
