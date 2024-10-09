@@ -20,7 +20,7 @@ const config = {
   media: {
     tina: {
       mediaRoot: "",
-      publicFolder: "src",
+      publicFolder: "",
     },
   },
   contentApiUrlOverride: "/api/tina/gql",
