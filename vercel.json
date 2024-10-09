@@ -3,7 +3,6 @@
     {
       "source": "/api/tina/:path*",
       "destination": "/api/tina/backend",
-      "cleanUrls": true,
       "trailingSlash": false
     }
   ]
