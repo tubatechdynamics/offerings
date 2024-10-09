@@ -48,6 +48,8 @@ Applications are open year-round, and selected non-profits will be notified as s
 
 ***
 
+![Illustration of a playful mailbox with a glowing letter halfway inside, and a small cat mascot popping out, waving excitedly, symbolizing the application process.](</assets/images/pages/u3343843948_a_playful_mailbox_with_a_glowing_letter_halfway_i_5dd48a14-d48e-47b1-92ad-648f2f8fa283_0 (1).png>)
+
 ## Join Our Community Impact
 
 At Tuba Tech Dynamics, we're more than just tech enthusiasts—we're partners in making a difference. By giving back to our community, we hope to foster a network of support that strengthens local non-profits and helps them thrive.
