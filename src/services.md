@@ -60,7 +60,7 @@ When it’s time to take your organization’s impact to the next level, our Imp
 
 **Ideal For**: Established organizations ready to scale their operations and measure their impact on a larger scale.
 
-![Illustration of a catapult launching a stylized emblem into the sky, surrounded by tech icons like laptops and servers, with a small cat mascot peeking from the corner.](/assets/images/ai-visualizations.png)
+![Illustration of a catapult launching a stylized emblem into the sky, surrounded by tech icons like laptops and servers, with a small cat mascot peeking from the corner.](/assets/images/u3343843948_An_illustrated_webpage_concept_with_a_focus_on_a__776a88dc-6778-4165-852c-d89112a5c4ca_2.png)
 
 ***
 
