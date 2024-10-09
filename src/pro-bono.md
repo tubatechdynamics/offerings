@@ -48,7 +48,7 @@ Applications are open year-round, and selected non-profits will be notified as s
 
 **Ready to get started? [Contact us today](/contact).**
 
-![Illustration of a group of people holding connected digital nodes in a circle, with a small cat mascot in the center, symbolizing community and support.](</assets/images/pages/u3343843948_a_group_of_diverse_people_standing_in_a_circle_ea_14a9de97-6b8c-4f6b-a5c0-840ba01ea5ee_3 (1).png>)
+![Illustration of a glowing bridge with icons symbolizing support and partnership, connecting two sides over a digital landscape.](/assets/images/pages/u3343843948_flat-style_illustration_of_a_glowing_bridge_exten_0da2729a-d0e0-4a6f-8eae-6a52303e7bb2_1.png)
 
 ## Join Our Community Impact
 
