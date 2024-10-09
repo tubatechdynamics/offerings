@@ -1,14 +1,13 @@
 ---
 layout: page.njk
-templateEngineOverride: njk,md
+templateEngineOverride: 'njk,md'
 permalink: /pro-bono/index.html
-
-title: "Pro Bono Initiative"
-meta_title: "Pro Bono Initiative | Tuba Tech Dynamics"
-meta_description: "Tuba Tech Dynamics offers pro bono web development and digital services to deserving non-profits, helping amplify their impact and improve their online presence."
+title: Pro Bono Initiative
 ---
 
 At Tuba Tech Dynamics, we believe that technology can be a powerful force for good. Our Pro Bono Initiative aims to support local non-profits by providing them with high-quality websites and digital tools—completely free of charge. If your organization is doing great work but struggling with an outdated website, we want to help.
+
+![Illustration of two hands holding a glowing orb with digital circuits, and a small cat mascot perched on one hand, symbolizing technological support and impact.](/assets/images/pages/u3343843948_flat-style_illustration_of_two_hands_holding_a_gl_6c83158e-24dc-4ed7-9580-28e036dc1beb_2.png)
 
 ## Our Mission
 
@@ -18,10 +17,10 @@ We are committed to empowering non-profits by enhancing their online presence. A
 
 Eligible non-profits selected through this initiative will receive:
 
-- **Custom Website Design:** A modern, responsive website tailored to your organization's needs.
-- **Content Strategy & Copywriting:** Assistance in creating compelling content that tells your story effectively.
-- **SEO Optimization:** Improve your visibility on search engines and attract more visitors.
-- **Ongoing Support & Maintenance:** We won't just build your website—we'll be here to help maintain it.
+* **Custom Website Design:** A modern, responsive website tailored to your organization's needs.
+* **Content Strategy & Copywriting:** Assistance in creating compelling content that tells your story effectively.
+* **SEO Optimization:** Improve your visibility on search engines and attract more visitors.
+* **Ongoing Support & Maintenance:** We won't just build your website—we'll be here to help maintain it.
 
 ### Who Can Apply?
 
@@ -33,13 +32,15 @@ We want to support non-profits that:
 
 If your non-profit fits this description, we encourage you to apply!
 
+![Illustration of a playful mailbox with a glowing letter halfway inside, and a small cat mascot popping out, waving excitedly, symbolizing the application process.](</assets/images/pages/u3343843948_a_playful_mailbox_with_a_glowing_letter_halfway_i_5dd48a14-d48e-47b1-92ad-648f2f8fa283_0 (1).png>)
+
 ## How to Apply
 
 To be considered for our Pro Bono Initiative, please use our [contact form](/contact) and include the following information:
 
-- Your organization's name and mission
-- A brief description of your current website challenges
-- How a new website would impact your organization's work
+* Your organization's name and mission
+* A brief description of your current website challenges
+* How a new website would impact your organization's work
 
 In the subject line, please write "Pro Bono Initiative Application". We'll review each submission carefully to select organizations that will benefit the most.
 
@@ -47,7 +48,7 @@ Applications are open year-round, and selected non-profits will be notified as s
 
 **Ready to get started? [Contact us today](/contact).**
 
----
+![Illustration of a group of people holding connected digital nodes in a circle, with a small cat mascot in the center, symbolizing community and support.](</assets/images/pages/u3343843948_a_group_of_diverse_people_standing_in_a_circle_ea_14a9de97-6b8c-4f6b-a5c0-840ba01ea5ee_3 (1).png>)
 
 ## Join Our Community Impact
 
