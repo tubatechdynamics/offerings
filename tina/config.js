@@ -17,12 +17,12 @@ const config = {
     outputFolder: "admin",
     publicFolder: "src/",
   },
-  media: {
-    tina: {
-      mediaRoot: "",
-      publicFolder: "src/assets/",
-    },
-  },
+  // media: {
+  //   tina: {
+  //     mediaRoot: "",
+  //     publicFolder: "src/assets/",
+  //   },
+  // },
   contentApiUrlOverride: "/api/tina/gql",
   authProvider: isLocal
     ? new LocalAuthProvider()
