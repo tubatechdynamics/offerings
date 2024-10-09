@@ -52,33 +52,6 @@ const config = {
             required: false,
           },
           {
-            type: "datetime",
-            name: "date",
-            label: "Publish Date",
-          },
-          {
-            type: "string",
-            name: "author",
-            label: "Author",
-          },
-          {
-            type: "string",
-            name: "category",
-            label: "Category",
-            list: true,
-          },
-          {
-            type: "string",
-            name: "tags",
-            label: "Tags",
-            list: true,
-          },
-          {
-            type: "image",
-            name: "featured_image",
-            label: "Featured Image",
-          },
-          {
             type: "rich-text",
             name: "body",
             label: "Body",
@@ -109,6 +82,33 @@ const config = {
             name: "meta_description",
             label: "Meta Description",
             required: false,
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Publish Date",
+          },
+          {
+            type: "string",
+            name: "author",
+            label: "Author",
+          },
+          {
+            type: "string",
+            name: "category",
+            label: "Category",
+            list: true,
+          },
+          {
+            type: "string",
+            name: "tags",
+            label: "Tags",
+            list: true,
+          },
+          {
+            type: "image",
+            name: "featured_image",
+            label: "Featured Image",
           },
           {
             type: "rich-text",
