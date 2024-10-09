@@ -1,14 +1,16 @@
 ---
 layout: default.njk
-templateEngineOverride: njk,md
+templateEngineOverride: 'njk,md'
 permalink: /
-
-title: "Tuba Tech Dynamics | Empowering Non-Profits with Innovative Technology"
-meta_title: "Tuba Tech Dynamics | Empowering Non-Profits with Innovative Technology"
-meta_description: "Custom web applications and AI-powered solutions tailored for non-profit organizations. Discover how Tuba Tech Dynamics can elevate your mission."
+meta_title: Tuba Tech Dynamics | Empowering Non-Profits with Innovative Technology
+meta_description: >-
+  Custom web applications and AI-powered solutions tailored for non-profit
+  organizations. Discover how Tuba Tech Dynamics can elevate your mission.
+title: Tuba Tech Dynamics
 ---
 
 <!-- Hero Section -->
+
 <section class="hero">
   <div class="hero-text">
     <h1>Empowering Non-Profits Through Technology</h1>
@@ -18,6 +20,7 @@ meta_description: "Custom web applications and AI-powered solutions tailored for
 </section>
 
 <!-- Introduction Section -->
+
 <section class="introduction">
   <div class="introduction-wrapper">
     <div class="content-container">
@@ -27,6 +30,7 @@ meta_description: "Custom web applications and AI-powered solutions tailored for
 </section>
 
 <!-- Services Highlights Section -->
+
 <section class="services-highlights">
   <div class="content-container">
     <div class="service">
@@ -47,7 +51,6 @@ meta_description: "Custom web applications and AI-powered solutions tailored for
   </div>
 </section>
 
-
 <!-- Featured Solution Section
 <section class="featured-solution content-wrapper">
   <h2>Featured Project: EmpowerEd Initiative</h2>
@@ -61,6 +64,7 @@ meta_description: "Custom web applications and AI-powered solutions tailored for
 </section>-->
 
 <!-- Action Banner -->
+
 <section class="action-banner">
   <div class="action-banner-content">
     <h2>Ready to elevate your organization's impact with technology?</h2>
