@@ -10,9 +10,7 @@ const isLocal = process.env.TINA_PUBLIC_IS_LOCAL === "true";
 
 const config = {
   branch,
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
-  token: process.env.TINA_TOKEN,
-  isLocal: isLocal,
+  isLocal,
   build: {
     outputFolder: "admin",
     publicFolder: "_site",
