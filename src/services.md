@@ -16,7 +16,7 @@ title: Services
 
 At Tuba Tech Dynamics, we understand that each organization has unique needs depending on where they are in their digital journey. That’s why we offer a range of service packages to help you achieve your goals, whether you’re just starting out or looking to make a major impact. We help your online presence expand with confidence and style!
 
-![Illustration of a professional website on various devices, showcasing a sleek, minimal design.](/assets/images/professional-websites.png)
+![Illustration of a cat mascot using a tablet, surrounded by icons representing web design, analytics, and outreach services.](/assets/images/pages/u3343843948_A_single_scene_featuring_a_stylized_digital_lands_b9fe46b3-c379-4b86-a4ed-51626b235881_0.png)
 
 ### **Starter Package: Begin with a Strong Foundation**
 
