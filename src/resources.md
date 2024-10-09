@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 templateEngineOverride: njk,md
-permalink: /resources.html
+permalink: /resources/index.html
 
 title: Resources
 ---

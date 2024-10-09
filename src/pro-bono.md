@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 templateEngineOverride: njk,md
-permalink: /pro-bono.html
+permalink: /pro-bono/index.html
 
 title: "Pro Bono Initiative"
 meta_title: "Pro Bono Initiative | Tuba Tech Dynamics"

@@ -1,6 +1,6 @@
 ---
 layout: default.njk
-permalink: /blog.html
+permalink: /blog/index.html
 templateEngineOverride: njk,md
 
 title: Blog

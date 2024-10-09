@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 templateEngineOverride: njk,md
-permalink: /services.html
+permalink: /services/index.html
 
 title: "Services"
 meta_title: "Digital Presence Solutions | Tuba Tech Dynamics"

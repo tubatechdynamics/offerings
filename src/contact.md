@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 templateEngineOverride: njk,md
-permalink: /contact.html
+permalink: /contact/index.html
 
 title: "Contact Us"
 meta_title: "Contact Us | Tuba Tech Dynamics"

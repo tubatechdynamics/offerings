@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 templateEngineOverride: njk,md
-permalink: /portfolio.html
+permalink: /portfolio/index.html
 
 title: "Portfolio"
 meta_title: "Portfolio | Tuba Tech Dynamics"
