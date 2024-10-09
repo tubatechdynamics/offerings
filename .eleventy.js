@@ -10,6 +10,9 @@ module.exports = function(eleventyConfig) {
   // Copy the CSS and JS folders to the output
   eleventyConfig.addPassthroughCopy("src/assets");
 
+  // Copy `src/assets/images/favicon` to `_site/`
+  eleventyConfig.addPassthroughCopy({ "src/assets/images/favicon": "/" });
+
   // Add a custom filter named 'relative_url'
   eleventyConfig.addFilter("relative_url", function(url) {
     return url.startsWith("/") ? url : "/" + url;
