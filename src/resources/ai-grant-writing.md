@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 templateEngineOverride: njk,md
-permalink: /resources/ai-grant-writing.html
+permalink: /resources/ai-grant-writing/index.html
 
 title: "Using ChatGPT to Write Grant Proposals for Small Nonprofits"
 meta_title: "How to Use ChatGPT to Write Effective Grant Proposals for Small Nonprofits"

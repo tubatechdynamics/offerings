@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 templateEngineOverride: njk,md
-permalink: /resources/funding.html
+permalink: /resources/funding/index.html
 
 title: Funding Resources for Non-Profits
 ---
