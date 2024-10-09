@@ -26,16 +26,13 @@ const nextConfig = {
     }
     return config;
   },
-  // Add rewrites for clean URLs and homepage
+  // Handle all routes
   async rewrites() {
     return [
+      // Rewrite everything to `pages/index.js`
       {
         source: '/:path*',
-        destination: '/:path*.html',
-      },
-      {
-        source: '/:path*/',
-        destination: '/:path*/index.html',
+        destination: '/',
       },
     ];
   },
