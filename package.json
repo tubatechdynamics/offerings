@@ -7,11 +7,9 @@
     "11ty:build": "eleventy",
     "11ty:start": "eleventy --serve",
     "11ty:serve": "serve _site",
-    "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"next dev\"",
-    "dev:prod": "TINA_PUBLIC_IS_LOCAL=false tinacms dev -c \"next dev\"",
+    "dev": "tinacms dev -c \"npx @11ty/eleventy --serve\"",
     "build": "tinacms build --partial-reindex && npx @11ty/eleventy && next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": ""
   },
   "keywords": [],
   "author": "",
