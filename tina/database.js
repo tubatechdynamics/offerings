@@ -34,8 +34,7 @@ export default isLocal
       // May very depending on your database adapter
       databaseAdapter: new RedisLevel({
         redis: new Redis({
-          url:
-            (process.env.KV_REST_API_URL) || 'http://localhost:8079',
+          url: (process.env.KV_REST_API_URL) || 'http://localhost:8079',
           token: (process.env.KV_REST_API_TOKEN) || 'example_token',
         }),
         debug: process.env.DEBUG === 'true' || false,
