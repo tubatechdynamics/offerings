@@ -45,12 +45,12 @@ In the subject line, please write "Pro Bono Initiative Application". We'll revie
 
 Applications are open year-round, and selected non-profits will be notified as soon as a new project slot becomes available.
 
-**[Apply Now via Contact Form](/contact)**
+**Ready to get started? [Contact us today](/contact).**
+
+---
 
 ## Join Our Community Impact
 
 At Tuba Tech Dynamics, we're more than just tech enthusiasts—we're partners in making a difference. By giving back to our community, we hope to foster a network of support that strengthens local non-profits and helps them thrive.
 
-Interested in partnering with us on future pro bono projects? Reach out through our [contact page](/contact).
-
-**Ready to get started? [Contact us today](/contact).**
+Interested in partnering with us on future pro bono projects? Reach out through our [company site](https://tubatechdynamics.com/contact).

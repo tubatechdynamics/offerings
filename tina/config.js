@@ -69,5 +69,13 @@ const config = {
       },
     ],
   },
+  search: {
+    tina: {
+      indexerToken: '2a56e5b20d5e0fc9eabcb429d242603efb39799a',
+      stopwordLanguages: ['eng'],
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100,
+  },
 };
 export default defineConfig(config);
