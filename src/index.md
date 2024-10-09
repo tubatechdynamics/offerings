@@ -3,7 +3,7 @@ layout: default.njk
 templateEngineOverride: njk,md
 permalink: /
 
-title: "Tuba Tech Dynamics | Empowering Non-Profits with Innovative Technology"
+title: "Tuba Tech Dynamics"
 meta_title: "Tuba Tech Dynamics | Empowering Non-Profits with Innovative Technology"
 meta_description: "Custom web applications and AI-powered solutions tailored for non-profit organizations. Discover how Tuba Tech Dynamics can elevate your mission."
 ---

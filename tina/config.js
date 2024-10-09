@@ -40,6 +40,18 @@ const config = {
             required: true,
           },
           {
+            type: "string",
+            name: "meta_title",
+            label: "Meta Title",
+            required: false,
+          },
+          {
+            type: "string",
+            name: "meta_description",
+            label: "Meta Description",
+            required: false,
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",
