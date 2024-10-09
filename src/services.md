@@ -44,7 +44,7 @@ You’ve got your foundation—now it’s time to play with some advanced tools 
 
 **Ideal For**: Non-profits experiencing growth and looking to deepen their community impact.
 
-![Illustration of a tree with data node leaves symbolizing growth, extending to icons for community, analytics, and AI-driven interactions, rooted in a base labeled 'Foundation.](/assets/images/u3343843948_An_illustration_of_a_stylized_tree_representing_g_bed7d84b-8089-46b4-850b-ea5542791cf3_3.png)
+![Illustration of a tree with data node leaves symbolizing growth, extending to icons for community, analytics, and AI-driven interactions, rooted in a base labeled 'Foundation.](/assets/images/pages/u3343843948_An_illustration_of_a_stylized_tree_representing_g_bed7d84b-8089-46b4-850b-ea5542791cf3_3.png)
 
 ***
 
