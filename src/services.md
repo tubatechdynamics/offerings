@@ -16,7 +16,7 @@ title: Services
 
 At Tuba Tech Dynamics, we understand that each organization has unique needs depending on where they are in their digital journey. That’s why we offer a range of service packages to help you achieve your goals, whether you’re just starting out or looking to make a major impact. We help your online presence expand with confidence and style!
 
-![Illustration of a professional website on various devices, showcasing a sleek, minimal design.](/assets/images/professional-websites.png)
+![Illustration of a cat mascot using a tablet, surrounded by icons representing web design, analytics, and outreach services.](/assets/images/pages/u3343843948_A_single_scene_featuring_a_stylized_digital_lands_b9fe46b3-c379-4b86-a4ed-51626b235881_0.png)
 
 ### **Starter Package: Begin with a Strong Foundation**
 
@@ -29,6 +29,8 @@ Get your paws on the basics and set up a sleek, professional website that’s ea
 * **Essential AI Features**: Automate the basics like event registration and contact forms to save time and keep visitors engaged.
 
 **Ideal For**: Small non-profits and grassroots organizations ready to establish a solid digital presence.
+
+![Illustration of a building foundation being constructed with design tools and mobile devices, symbolizing a strong digital foundation, with a small cat mascot in a helmet holding a blueprint.](/assets/images/pages/u3343843948_A_flat-style_illustration_featuring_a_stylized_co_a5c3ca42-807e-4749-b5b6-2f9214fd79cc_2.png)
 
 ***
 
@@ -44,7 +46,7 @@ You’ve got your foundation—now it’s time to play with some advanced tools 
 
 **Ideal For**: Non-profits experiencing growth and looking to deepen their community impact.
 
-![Illustration of a non-profit team efficiently managing operations using custom software tools.](/assets/images/custom-applications.png)
+![Illustration of a tree with data node leaves symbolizing growth, extending to icons for community, analytics, and AI-driven interactions, rooted in a base labeled 'Foundation.](/assets/images/pages/u3343843948_An_illustration_of_a_stylized_tree_representing_g_bed7d84b-8089-46b4-850b-ea5542791cf3_3.png)
 
 ***
 
@@ -60,7 +62,7 @@ When it’s time to take your organization’s impact to the next level, our Imp
 
 **Ideal For**: Established organizations ready to scale their operations and measure their impact on a larger scale.
 
-![Illustration of a nonprofit leader analyzing impact measurement data on a digital dashboard.](/assets/images/ai-visualizations.png)
+![Illustration of a catapult launching a stylized emblem into the sky, surrounded by tech icons like laptops and servers, with a small cat mascot peeking from the corner.](/assets/images/pages/u3343843948_An_illustrated_webpage_concept_with_a_focus_on_a__776a88dc-6778-4165-852c-d89112a5c4ca_2.png)
 
 ***
 
