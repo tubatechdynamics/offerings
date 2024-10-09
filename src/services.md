@@ -30,6 +30,8 @@ Get your paws on the basics and set up a sleek, professional website that’s ea
 
 **Ideal For**: Small non-profits and grassroots organizations ready to establish a solid digital presence.
 
+![Illustration of a building foundation being constructed with design tools and mobile devices, symbolizing a strong digital foundation, with a small cat mascot in a helmet holding a blueprint.](/assets/images/pages/u3343843948_A_flat-style_illustration_featuring_a_stylized_co_a5c3ca42-807e-4749-b5b6-2f9214fd79cc_2.png)
+
 ***
 
 ### **Growth Package: Expand Your Reach**
