@@ -15,12 +15,12 @@ const config = {
   isLocal: isLocal,
   build: {
     outputFolder: "admin",
-    publicFolder: "src/",
+    publicFolder: "_site",
   },
   media: {
     tina: {
-      mediaRoot: "",
-      publicFolder: "",
+      mediaRoot: "assets",
+      publicFolder: "_site/assets",
     },
   },
   contentApiUrlOverride: "/api/tina/gql",

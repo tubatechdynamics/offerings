@@ -4,12 +4,11 @@
   "description": "A custom Eleventy site with blog post generation",
   "main": "index.js",
   "scripts": {
-    "11ty:build": "eleventy",
-    "11ty:start": "eleventy --serve",
-    "11ty:serve": "serve _site",
-    "dev": "tinacms dev -c \"npx @11ty/eleventy --serve\"",
-    "build": "tinacms build --partial-reindex && npx @11ty/eleventy && next build",
-    "start": ""
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "serve": "npx @11ty/eleventy --serve",
+    "tinadev": "tinacms dev -c \"npx @11ty/eleventy --serve\"",
+    "tinabuild": "tinacms build --partial-reindex && npx @11ty/eleventy && next build"
   },
   "keywords": [],
   "author": "",
