@@ -1,5 +1,4 @@
-import { defineConfig as defineConfig, LocalAuthProvider as LocalAuthProvider } from "tinacms";
-import { TinaUserCollection as TinaUserCollection, DefaultAuthJSProvider as DefaultAuthJSProvider, UsernamePasswordAuthJSProvider as UsernamePasswordAuthJSProvider } from "tinacms-authjs/dist/tinacms";
+import { defineConfig as defineConfig } from "tinacms";
 
 const branch = process.env.GITHUB_BRANCH ||
   process.env.VERCEL_GIT_COMMIT_REF ||
@@ -9,6 +8,8 @@ const branch = process.env.GITHUB_BRANCH ||
 const isLocal = process.env.TINA_PUBLIC_IS_LOCAL === "true";
 
 const config = {
+  token: process.env.TINA_TOKEN,
+  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
   branch,
   isLocal,
   build: {
@@ -21,13 +22,8 @@ const config = {
       publicFolder: "_site/assets",
     },
   },
-  contentApiUrlOverride: "/api/tina/gql",
-  authProvider: isLocal
-    ? new LocalAuthProvider()
-    : new DefaultAuthJSProvider(),
   schema: {
     collections: [
-      TinaUserCollection,
       {
         name: "pages",
         label: "Pages",

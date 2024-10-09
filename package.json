@@ -8,22 +8,19 @@
     "start": "npx @11ty/eleventy --serve",
     "serve": "npx @11ty/eleventy --serve",
     "tinadev": "tinacms dev -c \"npx @11ty/eleventy --serve\"",
-    "tinabuild": "tinacms build --partial-reindex && npx @11ty/eleventy && next build"
+    "tinabuild": "tinacms build --partial-reindex && npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@tinacms/cli": "^1.6.9",
-    "@tinacms/datalayer": "^1.3.4",
     "@upstash/redis": "^1.34.2",
     "dotenv": "^16.4.5",
     "nunjucks": "^3.2.4",
     "sass": "^1.79.4",
     "tinacms": "^2.2.9",
-    "tinacms-authjs": "^5.0.9",
-    "tinacms-gitprovider-github": "^2.0.5",
-    "upstash-redis-level": "^1.1.1"
+    "tinacms-gitprovider-github": "^2.0.5"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -31,5 +28,6 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "lightningcss": "^1.27.0"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
