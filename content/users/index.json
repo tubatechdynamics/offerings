@@ -4,10 +4,7 @@
       "name": "Jaycee",
       "email": "scragz@gmail.com",
       "username": "scragz",
-      "password": {
-        "value": "tinarocks",
-        "passwordChangeRequired": true
-      }
+      "password": "tinarocks"
     }
   ]
 }
