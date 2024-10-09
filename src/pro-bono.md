@@ -32,7 +32,7 @@ We want to support non-profits that:
 
 If your non-profit fits this description, we encourage you to apply!
 
-![Illustration of a playful mailbox with a glowing letter halfway inside, and a small cat mascot popping out, waving excitedly, symbolizing the application process.](</assets/images/pages/u3343843948_a_playful_mailbox_with_a_glowing_letter_halfway_i_5dd48a14-d48e-47b1-92ad-648f2f8fa283_0 (1).png>)
+![Illustration of a playful mailbox with a glowing letter halfway inside, and a small cat mascot popping out, waving excitedly, symbolizing the application process.](/assets/images/pages/tuba-mail.png)
 
 ## How to Apply
 
