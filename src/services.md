@@ -25,7 +25,7 @@ Get your paws on the basics and set up a sleek, professional website that’s ea
 **Key Benefits**:
 
 * **Clear & Compelling Design**: Make a powerful first impression with a website that showcases your mission beautifully.
-* **Mobile-Friendly Layout**: Whether viewed on a tablet or a phone, your site will look purr-fect everywhere.
+* **Mobile-Friendly Layout**: Whether viewed on a tablet or a phone, your site will look perfect everywhere.
 * **Essential AI Features**: Automate the basics like event registration and contact forms to save time and keep visitors engaged.
 
 **Ideal For**: Small non-profits and grassroots organizations ready to establish a solid digital presence.
@@ -44,7 +44,7 @@ You’ve got your foundation—now it’s time to play with some advanced tools 
 
 **Ideal For**: Non-profits experiencing growth and looking to deepen their community impact.
 
-![Illustration of a non-profit team efficiently managing operations using custom software tools.](/assets/images/engagement-tracking.png)
+![Illustration of a non-profit team efficiently managing operations using custom software tools.](/assets/images/custom-applications.png)
 
 ***
 
@@ -60,7 +60,7 @@ When it’s time to take your organization’s impact to the next level, our Imp
 
 **Ideal For**: Established organizations ready to scale their operations and measure their impact on a larger scale.
 
-![Illustration of a nonprofit leader analyzing impact measurement data on a digital dashboard.](/assets/images/impact-measurement.png)
+![Illustration of a nonprofit leader analyzing impact measurement data on a digital dashboard.](/assets/images/ai-visualizations.png)
 
 ***
 
