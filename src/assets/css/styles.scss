@@ -741,6 +741,8 @@ img {
     margin-bottom: 40px;
     padding-bottom: 40px;
     border-bottom: 1px solid $accent-color;
+    display: flex;
+    flex-direction: column;
 
     &:last-child {
       border-bottom: none;
@@ -750,12 +752,42 @@ img {
   h2 {
     margin-bottom: 10px;
   }
+
+  .featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+  }
 }
 
 .post-meta {
   color: #666;
   font-size: 0.9em;
   margin-bottom: 15px;
+}
+
+.read-more {
+  align-self: flex-start;
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: $rebecca-purple;
+  color: $white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($rebecca-purple, 10%);
+  }
 }
 
 .blog-post {
@@ -924,6 +956,17 @@ form {
       max-width: none;
       margin-left: 50%;
       transform: translateX(-50%);
+    }
+  }
+
+  .post-list {
+    li {
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+    }
+
+    .featured-image {
+      max-height: 200px;
     }
   }
 }

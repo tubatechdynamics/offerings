@@ -10,6 +10,9 @@ title: Blog
   <ul class="post-list">
   {%- for post in collections.post -%}
     <li>
+      {% if post.data.featured_image %}
+        <img src="{{ post.data.featured_image | url }}" alt="{{ post.data.title }}" class="featured-image">
+      {% endif %}
       <h2><a href="{{ post.url | url }}">{{ post.data.title }}</a></h2>
       <p class="post-meta">{{ post.date | dateFilter }}</p>
       {% if post.data.excerpt %}
