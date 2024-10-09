@@ -13,10 +13,10 @@ const nextConfig = {
           compiler.hooks.afterEmit.tapAsync('Copy11tyContent', (compilation, callback) => {
             fs.copy(
               path.join(__dirname, '_site'),
-              path.join(__dirname, '.next', 'static'),
+              path.join(__dirname, 'public'),
               (err) => {
                 if (err) return console.error(err);
-                console.log('11ty content copied to Next.js static folder!');
+                console.log('11ty content copied to Next.js public folder!');
                 callback();
               }
             );
@@ -30,30 +30,12 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/',
-        destination: '/index.html',
-      },
-      {
         source: '/:path*',
         destination: '/:path*.html',
       },
       {
         source: '/:path*/',
         destination: '/:path*/index.html',
-      },
-    ];
-  },
-  // Add headers to serve HTML content correctly
-  async headers() {
-    return [
-      {
-        source: '/:path*',
-        headers: [
-          {
-            key: 'Content-Type',
-            value: 'text/html',
-          },
-        ],
       },
     ];
   },
