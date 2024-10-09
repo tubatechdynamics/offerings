@@ -2,8 +2,7 @@
   "rewrites": [
     {
       "source": "/api/tina/:path*",
-      "destination": "/api/tina/backend",
-      "trailingSlash": false
+      "destination": "/api/tina/backend"
     }
   ]
 }
