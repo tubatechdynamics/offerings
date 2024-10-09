@@ -40,18 +40,6 @@ const config = {
             required: true,
           },
           {
-            type: "string",
-            name: "meta_title",
-            label: "Meta Title",
-            required: false,
-          },
-          {
-            type: "string",
-            name: "meta_description",
-            label: "Meta Description",
-            required: false,
-          },
-          {
             type: "rich-text",
             name: "body",
             label: "Body",
@@ -94,18 +82,6 @@ const config = {
             label: "Author",
           },
           {
-            type: "string",
-            name: "category",
-            label: "Category",
-            list: true,
-          },
-          {
-            type: "string",
-            name: "tags",
-            label: "Tags",
-            list: true,
-          },
-          {
             type: "image",
             name: "featured_image",
             label: "Featured Image",
@@ -122,7 +98,7 @@ const config = {
   },
   search: {
     tina: {
-      indexerToken: '2a56e5b20d5e0fc9eabcb429d242603efb39799a',
+      indexerToken: '1cd4c8bd1e4b2c21411533a8b5dead7822c31f88',
       stopwordLanguages: ['eng'],
     },
     indexBatchSize: 100,

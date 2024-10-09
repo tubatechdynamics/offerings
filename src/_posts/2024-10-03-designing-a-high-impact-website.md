@@ -5,7 +5,6 @@ tags: post
 title: "Designing a High-Impact Website on a Limited Budget"
 date: 2024-10-03
 author: Jaycee Lydian
-categories: [Web Design, Technology, Small Business]
 ---
 
 Creating a high-impact website is crucial for establishing a strong online presence, attracting customers, and building credibility. But for small businesses and non-profits working with a limited budget, achieving a professional and functional site can seem daunting. Fortunately, it's possible to balance design quality and functionality without overspending on web development.
