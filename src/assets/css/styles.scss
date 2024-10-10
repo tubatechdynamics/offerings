@@ -250,8 +250,7 @@ header {
     }
 
     .logo-mark-link {
-      margin-right: 0;
-      margin-bottom: 10px;
+      display: none; // Hide the logo mark on mobile
     }
 
     .logo-text-nav-container {

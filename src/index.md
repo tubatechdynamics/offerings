@@ -34,19 +34,9 @@ title: Tuba Tech Dynamics
 <section class="services-highlights">
   <div class="content-container">
     <div class="service">
-      <h2>Custom Internal Applications</h2>
-      <p>Our tailored software solutions are designed to simplify your operations, streamline your workflows, and reduce manual work, giving your team more time to focus on creating positive change.</p>
-      <a href="{{ '/services#custom-applications' | relative_url }}" class="cta-link">Learn More</a>
-    </div>
-    <div class="service">
-      <h2>Public Engagement Tools</h2>
-      <p>We develop interactive platforms that connect your organization with donors, volunteers, and the public, helping you foster meaningful interactions and expand your reach.</p>
-      <a href="{{ '/services#public-tools' | relative_url }}" class="cta-link">Learn More</a>
-    </div>
-    <div class="service">
-      <h2>AI-Powered Solutions</h2>
-      <p>From predictive analytics to intelligent volunteer management, our AI tools provide insights and automation to support your mission and enhance your decision-making capabilities.</p>
-      <a href="{{ '/services#ai-solutions' | relative_url }}" class="cta-link">Learn More</a>
+      <h2>Explore Our Service Packages</h2>
+      <p>Discover how Tuba Tech Dynamics can enhance your digital presence with tailored service packages designed to meet your organization's unique needs. From foundational setups to advanced AI-driven solutions, we have the expertise to help you grow and make a significant impact.</p>
+      <a href="{{ '/services' | relative_url }}" class="cta-link">Learn More</a>
     </div>
   </div>
 </section>
@@ -67,7 +57,7 @@ title: Tuba Tech Dynamics
 
 <section class="action-banner">
   <div class="action-banner-content">
-    <h2>Ready to elevate your organization's impact with technology?</h2>
+    <h2>Ready to elevate your organization's impact?</h2>
     <a href="{{ '/contact' | relative_url }}" class="action-button">Get in Touch</a>
   </div>
 </section>
