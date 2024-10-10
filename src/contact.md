@@ -1,11 +1,12 @@
 ---
 layout: page.njk
-templateEngineOverride: njk,md
+templateEngineOverride: 'njk,md'
 permalink: /contact/index.html
-
-title: "Contact Us"
-meta_title: "Contact Us | Tuba Tech Dynamics"
-meta_description: "Get in touch with Tuba Tech Dynamics to discuss your non-profit's technology needs. We're here to help you amplify your impact."
+title: Contact Us
+meta_title: Contact Us | Tuba Tech Dynamics
+meta_description: >-
+  Get in touch with Tuba Tech Dynamics to discuss your non-profit's technology
+  needs. We're here to help you amplify your impact.
 ---
 
 We're thrilled to learn more about your organization and explore how we can support your mission. Whether you have questions about our services, want to brainstorm a new project, or simply want to say hello, our team is ready to guide you every step of the way.
@@ -21,7 +22,6 @@ We're eager to dive into the details of your project and explore how our technol
 ## Contact Form
 
 Tell us about your project, and we'll get back to you with a tailored plan to meet your needs.
-
 
 <form action="https://usebasin.com/f/e0ffe31d52c6" method="POST">
   <div class="form-group">
@@ -52,21 +52,24 @@ Tell us about your project, and we'll get back to you with a tailored plan to me
         <label for="service1">Custom Internal Applications</label>
       </div>
 
-      <div class="checkbox-item">
-        <input type="checkbox" id="service2" name="services" value="AI-Powered Visualizations">
-        <label for="service2">AI-Powered Visualizations</label>
-      </div>
+```
+  <div class="checkbox-item">
+    <input type="checkbox" id="service2" name="services" value="AI-Powered Visualizations">
+    <label for="service2">AI-Powered Visualizations</label>
+  </div>
 
-      <div class="checkbox-item">
-        <input type="checkbox" id="service3" name="services" value="Public Engagement Tools">
-        <label for="service3">Public Engagement Tools</label>
-      </div>
+  <div class="checkbox-item">
+    <input type="checkbox" id="service3" name="services" value="Public Engagement Tools">
+    <label for="service3">Public Engagement Tools</label>
+  </div>
 
-      <div class="checkbox-item">
-        <input type="checkbox" id="service4" name="services" value="Other">
-        <label for="service4">Other (please specify)</label>
-      </div>
-    </div>
+  <div class="checkbox-item">
+    <input type="checkbox" id="service4" name="services" value="Other">
+    <label for="service4">Other (please specify)</label>
+  </div>
+</div>
+```
+
   </div>
 
   <div class="form-group">
@@ -79,4 +82,4 @@ Tell us about your project, and we'll get back to you with a tailored plan to me
   </div>
 </form>
 
-![An inviting illustration of a person typing on a laptop, surrounded by icons representing communication and collaboration.](/assets/images/contact.png)
+![Cat mascot holding an envelope.](/assets/images/pages/u3343843948_httpss.mj.run56-pWfznxh0_httpss.mj.runDbl9dK5DF38_f226b4de-c271-42e5-8f9e-9f64bce97c58_1.png)
