@@ -19,7 +19,7 @@ const config = {
   media: {
     tina: {
       mediaRoot: "assets/images",
-      publicFolder: "_site",
+      publicFolder: "src",
     },
   },
   schema: {
