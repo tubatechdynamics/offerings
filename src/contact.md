@@ -22,46 +22,61 @@ We're eager to dive into the details of your project and explore how our technol
 
 Tell us about your project, and we'll get back to you with a tailored plan to meet your needs.
 
+
 <form action="https://formsubmit.co/4ca88a99fe5fb4e27011196aa30fab41" method="POST">
-  <label for="name">Name*</label>
-  <input type="text" id="name" name="name" required>
+  <div class="form-group">
+    <label for="name">Name*</label>
+    <input type="text" id="name" name="name" required>
+  </div>
 
-  <label for="email">Email*</label>
-  <input type="email" id="email" name="email" required>
+  <div class="form-group">
+    <label for="email">Email*</label>
+    <input type="email" id="email" name="email" required>
+  </div>
 
-  <label for="organization">Organization*</label>
-  <input type="text" id="organization" name="organization" required>
+  <div class="form-group">
+    <label for="organization">Organization*</label>
+    <input type="text" id="organization" name="organization" required>
+  </div>
 
-  <label for="phone">Phone Number</label>
-  <input type="tel" id="phone" name="phone">
+  <div class="form-group">
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone">
+  </div>
 
-  <label>Services Interested In</label>
-  <div class="checkbox-group">
-    <div class="checkbox-item">
-      <input type="checkbox" id="service1" name="services" value="Custom Internal Applications">
-      <label for="service1">Custom Internal Applications</label>
-    </div>
+  <div class="form-group">
+    <label>Services Interested In</label>
+    <div class="checkbox-group">
+      <div class="checkbox-item">
+        <input type="checkbox" id="service1" name="services" value="Custom Internal Applications">
+        <label for="service1">Custom Internal Applications</label>
+      </div>
 
-    <div class="checkbox-item">
-      <input type="checkbox" id="service2" name="services" value="AI-Powered Visualizations">
-      <label for="service2">AI-Powered Visualizations</label>
-    </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="service2" name="services" value="AI-Powered Visualizations">
+        <label for="service2">AI-Powered Visualizations</label>
+      </div>
 
-    <div class="checkbox-item">
-      <input type="checkbox" id="service3" name="services" value="Public Engagement Tools">
-      <label for="service3">Public Engagement Tools</label>
-    </div>
+      <div class="checkbox-item">
+        <input type="checkbox" id="service3" name="services" value="Public Engagement Tools">
+        <label for="service3">Public Engagement Tools</label>
+      </div>
 
-    <div class="checkbox-item">
-      <input type="checkbox" id="service4" name="services" value="Other">
-      <label for="service4">Other (please specify)</label>
+      <div class="checkbox-item">
+        <input type="checkbox" id="service4" name="services" value="Other">
+        <label for="service4">Other (please specify)</label>
+      </div>
     </div>
   </div>
 
-  <label for="message">Message*</label>
-  <textarea id="message" name="message" required></textarea>
+  <div class="form-group">
+    <label for="message">Message*</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
 
-  <button type="submit">Submit</button>
+  <div class="form-group">
+    <button type="submit">Submit</button>
+  </div>
 </form>
 
 ![An inviting illustration of a person typing on a laptop, surrounded by icons representing communication and collaboration.](/assets/images/contact.png)

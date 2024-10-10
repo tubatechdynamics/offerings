@@ -112,8 +112,10 @@ a {
   transition: $transition;
 
   &:hover, &:focus {
-    background-color: darken($cta-color, 10%);
+    background-color: lighten($cta-color, 10%); // Lighten the background on hover
     color: $primary-bg-color;
+    transform: translateY(-2px); // Slight lift effect
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); // Add shadow for depth
   }
 }
 
@@ -837,19 +839,69 @@ img {
 form {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 
   label {
-    margin-top: 10px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: $davys-gray;
   }
 
   input, textarea {
+    width: 100%;
     padding: 10px;
-    margin-top: 5px;
+    border: 1px solid $light-blue;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+    &:focus {
+      outline: none;
+      border-color: $rebecca-purple;
+    }
   }
 
-  button {
+  textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+
+  button[type="submit"] {
     @extend .cta-button;
     margin-top: 20px;
+    cursor: pointer;
+    align-self: flex-start;
+    
+    &:hover, &:focus {
+      background-color: lighten($cta-color, 10%); // Lighten the background on hover
+      transform: translateY(-2px); // Slight lift effect
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2); // Add shadow for depth
+    }
+  }
+}
+
+.checkbox-group {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 0;
+    width: auto;
+  }
+
+  label {
+    margin-bottom: 0;
+    font-weight: normal;
   }
 }
 
