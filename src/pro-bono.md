@@ -32,7 +32,7 @@ We want to support non-profits that:
 
 If your non-profit fits this description, we encourage you to apply!
 
-![Illustration of a playful mailbox with a glowing letter halfway inside, and a small cat mascot popping out, waving excitedly, symbolizing the application process.](/assets/images/pages/tuba-mail.png)
+![](</assets/images/pages/u3343843948_a_playful_mailbox_with_a_glowing_letter_halfway_i_5dd48a14-d48e-47b1-92ad-648f2f8fa283_0 (1).png>)
 
 ## How to Apply
 
@@ -48,7 +48,7 @@ Applications are open year-round, and selected non-profits will be notified as s
 
 **Ready to get started? [Contact us today](/contact).**
 
-![Illustration of a glowing bridge with icons symbolizing support and partnership, connecting two sides over a digital landscape.](/assets/images/pages/u3343843948_flat-style_illustration_of_a_glowing_bridge_exten_0da2729a-d0e0-4a6f-8eae-6a52303e7bb2_1.png)
+![Illustration of the cat mascot in a futuristic city with tech icons in the sky.](/assets/images/pages/u3343843948_An_illustration_of_a_lively_semi-flat_digital_lan_13b18a50-a5dc-4c3d-878a-7430b45dd5b0_3.png)
 
 ## Join Our Community Impact
 
