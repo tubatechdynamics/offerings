@@ -10,17 +10,13 @@ meta_description: >-
   services.
 ---
 
-## Tailored Service Packages for Your Digital Presence
-
-![Illustration of a cat mascot using a tablet, surrounded by icons representing web design, analytics, and outreach services.](/assets/images/pages/u3343843948_A_single_scene_featuring_a_stylized_digital_lands_b9fe46b3-c379-4b86-a4ed-51626b235881_0.png)
-
-### Ready to Grow with You at Every Stage
+## Ready to Grow with You at Every Stage
 
 At Tuba Tech Dynamics, we understand that each organization has unique needs depending on where they are in their digital journey. That’s why we offer a range of service packages to help you achieve your goals, whether you’re just starting out or looking to make a major impact. We help your online presence expand with confidence and style!
 
 ![Illustration of a building foundation being constructed with design tools and mobile devices, symbolizing a strong digital foundation, with a small cat mascot in a helmet holding a blueprint.](/assets/images/pages/u3343843948_A_flat-style_illustration_featuring_a_stylized_co_a5c3ca42-807e-4749-b5b6-2f9214fd79cc_2.png)
 
-### **Starter Package: Begin with a Strong Foundation**
+## Starter Package: Begin with a Strong Foundation
 
 Get your paws on the basics and set up a sleek, professional website that’s easy to navigate and built to grow.
 
@@ -34,7 +30,7 @@ Get your paws on the basics and set up a sleek, professional website that’s ea
 
 ![Illustration of a tree with data node leaves symbolizing growth, extending to icons for community, analytics, and AI-driven interactions, rooted in a base.](/assets/images/pages/u3343843948_An_illustration_of_a_stylized_tree_representing_g_d119e487-c4fe-46a5-ba90-b129203aedd3_1.png)
 
-### **Growth Package: Expand Your Reach**
+## Growth Package: Expand Your Reach
 
 You’ve got your foundation—now it’s time to play with some advanced tools to amplify your impact. Our Growth Package gives you access to powerful AI-driven tools to understand and engage your community better.
 
@@ -48,7 +44,7 @@ You’ve got your foundation—now it’s time to play with some advanced tools 
 
 ![A small cat-shaped rocket ship in a garage surrounded by servers.](/assets/images/pages/u3343843948_httpss.mj.runsftLK4Hl-Q8_A_small_rocket_ship_surr_b5b8d90b-26a3-492e-a084-f1dda3f00b26_0.png)
 
-### **Impact Package: Maximize Your Effectiveness**
+## Impact Package: Maximize Your Effectiveness
 
 When it’s time to take your organization’s impact to the next level, our Impact Package offers a comprehensive suite of tools and consulting services to ensure your efforts reach as far as possible—like a catapult launching your cause into the stratosphere!
 
@@ -64,4 +60,4 @@ When it’s time to take your organization’s impact to the next level, our Imp
 
 ## Let’s Get Started
 
-No matter where you are on your digital journey, we’re here to help you grow—one paw step at a time. Ready to explore the package that fits your needs best? [Contact us today](#contact) and let’s build something amazing together!
+No matter where you are on your digital journey, we’re here to help you grow—one step at a time. Ready to explore the package that fits your needs best? [Contact us today](#contact) and let’s build something amazing together!
