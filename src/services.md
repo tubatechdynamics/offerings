@@ -2,8 +2,8 @@
 layout: page.njk
 templateEngineOverride: 'njk,md'
 permalink: /services/index.html
-title: Services
-meta_title: Digital Presence Solutions | Tuba Tech Dynamics
+title: Ready to Grow with You at Every Stage
+meta_title: Non-Profit Website Solutions | Tuba Tech Dynamics
 meta_description: >-
   Create a professional, high-impact online presence that showcases your mission
   and grows with your organization. Explore Tuba Tech Dynamics' full suite of
