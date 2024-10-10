@@ -360,7 +360,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 .full-width-image {
@@ -1147,4 +1147,28 @@ blockquote {
       font-size: 0.8em;
     }
   }
+}
+
+h2 {
+  margin-top: -20px; // Add space above the h2
+  margin-bottom: 10px; // Add space below the h2
+  padding: 10px; // Add padding for better spacing
+  font-size: 2rem; // Increase font size
+  font-weight: bold; // Make the text bold
+  background-color: lighten($pale-purple, 10%); // Add a light background color
+  border-left: 5px solid $secondary-accent-color; // Add a left border for emphasis
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); // Add a subtle text shadow
+}
+
+.page-content p:first-of-type {
+  color: $white; // Use a bold color to make it stand out
+  margin-top: -40px;
+  margin-bottom: -1rem;
+  line-height: 1.6; // Keep line height for readability
+  background-color: lighten($secondary-accent-color, 15%); // Add a subtle background color for emphasis
+  padding: 10px; // Add padding for better spacing
+  font-weight: normal; // Make the text bold to stand out
+  font-style: italic;
+  font-size: 1.2rem;
+  border-left: 4px solid $secondary-accent-color; // Add a left border for emphasis
 }
