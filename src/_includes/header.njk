@@ -1,23 +1,22 @@
 <header>
   <div class="header-wrapper">
-    <div class="logo">
-      
-      <a href="{{ '/' | relative_url }}">
+    <div class="logo-container">
+      <a href="{{ '/' | relative_url }}" class="logo-mark-link">
         <img src="{{ '/assets/images/logo-mark.png' | relative_url }}" alt="Tuba the Cat Logo Mark" class="logo-mark">
       </a>
-
-      <a href="{{ '/' | relative_url }}">
-        <img src="/assets/images/logo-text.png" alt="Tuba Tech Dynamics logo" class="logo-text">
-      </a>
+      <div class="logo-text-nav-container">
+        <a href="{{ '/' | relative_url }}" class="logo-text-link">
+          <img src="/assets/images/logo-text.png" alt="Tuba Tech Dynamics logo" class="logo-text">
+        </a>
+        <nav>
+          <ul>
+            <li><a href="{{ '/services' | relative_url }}">Services</a></li>
+            <li><a href="{{ '/pro-bono' | relative_url }}">Pro Bono</a></li>
+            <li><a href="{{ '/resources' | relative_url }}">Resources</a></li>
+            <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <nav>
-      <ul>
-        <li><a href="{{ '/services' | relative_url }}">Services</a></li>
-        <li><a href="{{ '/pro-bono' | relative_url }}">Pro Bono</a></li>
-        <!-- <li><a href="{{ '/portfolio' | relative_url }}">Portfolio</a></li> -->
-        <li><a href="{{ '/resources' | relative_url }}">Resources</a></li>
-        <li><a href="{{ '/contact' | relative_url }}">Contact</a></li>
-      </ul>
-    </nav>
   </div>
 </header>

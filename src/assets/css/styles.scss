@@ -170,28 +170,42 @@ header {
   .header-wrapper {
     @extend .container;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 0 20px;
+    padding: 20px;
     position: relative;
   }
 
-  .logo {
+  .logo-container {
     display: flex;
     align-items: center;
+    flex-grow: 1;
+  }
+
+  .logo-mark-link {
     flex-shrink: 0;
+    margin-right: 20px;
+  }
 
-    .logo-mark {
-      max-width: 80px; // Increased size for logo-mark
-      height: auto;
-      margin-right: 10px; // Add some space between mark and text
-    }
+  .logo-mark {
+    width: 200px; // Adjust size as needed
+    height: auto;
+  }
 
-    .logo-text {
-      max-width: 200px; // Slightly increased size for logo-text
-      height: auto;
-    }
+  .logo-text-nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo-text-link {
+    margin-bottom: 0;
+  }
+
+  .logo-text {
+    max-width: 350px; // Adjust as needed
+    height: auto;
   }
 
   nav {
@@ -200,8 +214,7 @@ header {
       padding: 0;
       margin: 0;
       display: flex;
-      gap: 15px; // This creates space between menu items
-      flex-wrap: wrap;
+      gap: 15px;
     }
 
     a {
@@ -226,25 +239,28 @@ header {
 @media (max-width: 768px) {
   header {
     .header-wrapper {
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
     }
 
-    .logo {
+    .logo-container {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .logo-mark-link {
+      margin-right: 0;
       margin-bottom: 10px;
     }
 
-    nav {
-      width: 100%;
+    .logo-text-nav-container {
+      align-items: center;
+    }
 
-      ul {
-        justify-content: center;
-        gap: 10px; // Reduce gap on smaller screens
-      }
-
-      a {
-        padding: 5px 0;
-      }
+    nav ul {
+      flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }
@@ -454,8 +470,8 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: 0.5;
-    background: $gradient-overlay; // Gradient overlay
+    opacity: 0.7; // Increased opacity for darker overlay
+    background: $gradient-overlay;
     z-index: 1;
   }
 
@@ -466,6 +482,7 @@ img {
     color: $white;
     max-width: 800px;
     padding: 0 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); // Added stronger text shadow
   }
 
   h1 {
@@ -473,14 +490,14 @@ img {
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); // Increased text shadow
     color: $white;
   }
 
   p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7); // Increased text shadow
   }
 
   .cta-button {
