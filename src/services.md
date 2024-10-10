@@ -62,7 +62,7 @@ When it’s time to take your organization’s impact to the next level, our Imp
 
 **Ideal For**: Established organizations ready to scale their operations and measure their impact on a larger scale.
 
-![A small rocket ship surrounded by servers.](/assets/images/pages/u3343843948_An_illustrated_webpage_concept_with_a_focus_on_a__776a88dc-6778-4165-852c-d89112a5c4ca_2.png)
+![A small cat-shaped rocket ship in a garage surrounded by servers.](/assets/images/pages/u3343843948_httpss.mj.runsftLK4Hl-Q8_A_small_rocket_ship_surr_b5b8d90b-26a3-492e-a084-f1dda3f00b26_0.png)
 
 ***
 
