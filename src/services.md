@@ -2,12 +2,12 @@
 layout: page.njk
 templateEngineOverride: 'njk,md'
 permalink: /services/index.html
+title: Services
 meta_title: Digital Presence Solutions | Tuba Tech Dynamics
 meta_description: >-
   Create a professional, high-impact online presence that showcases your mission
   and grows with your organization. Explore Tuba Tech Dynamics' full suite of
   services.
-title: Services
 ---
 
 ## Tailored Service Packages for Your Digital Presence
@@ -46,7 +46,7 @@ You’ve got your foundation—now it’s time to play with some advanced tools 
 
 **Ideal For**: Non-profits experiencing growth and looking to deepen their community impact.
 
-![Illustration of a tree with data node leaves symbolizing growth, extending to icons for community, analytics, and AI-driven interactions, rooted in a base labeled 'Foundation.](/assets/images/pages/u3343843948_An_illustration_of_a_stylized_tree_representing_g_bed7d84b-8089-46b4-850b-ea5542791cf3_3.png)
+![Illustration of a tree with data node leaves symbolizing growth, extending to icons for community, analytics, and AI-driven interactions, rooted in a base.](/assets/images/pages/u3343843948_An_illustration_of_a_stylized_tree_representing_g_d119e487-c4fe-46a5-ba90-b129203aedd3_1.png)
 
 ***
 
