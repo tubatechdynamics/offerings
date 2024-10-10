@@ -13,8 +13,8 @@ title: Tuba Tech Dynamics
 
 <section class="hero">
   <div class="hero-text">
-    <h1>Empowering Non-Profits Through Technology</h1>
-    <p>Innovative solutions that amplify your impact and streamline your mission.</p>
+    <h1>Community Growth Through Tech Empowerment</h1>
+    <p>Helping nonprofits thrive with tailored, impactful solutions.</p>
     <a href="{{ '/services' | relative_url }}" class="cta-button">Explore Our Services</a>
   </div>
 </section>
