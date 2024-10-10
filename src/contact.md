@@ -82,4 +82,4 @@ Tell us about your project, and we'll get back to you with a tailored plan to me
   </div>
 </form>
 
-![Cat mascot holding an envelope.](/assets/images/pages/u3343843948_httpss.mj.run56-pWfznxh0_httpss.mj.runDbl9dK5DF38_f226b4de-c271-42e5-8f9e-9f64bce97c58_1.png)
+![Illustration of the cat mascot holding an envelope.](/assets/images/pages/u3343843948_httpss.mj.run56-pWfznxh0_httpss.mj.runDbl9dK5DF38_f226b4de-c271-42e5-8f9e-9f64bce97c58_1.png)
