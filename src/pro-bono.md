@@ -48,7 +48,7 @@ Applications are open year-round, and selected non-profits will be notified as s
 
 **Ready to get started? [Contact us today](/contact).**
 
-![](/assets/images/pages/u3343843948_An_illustration_of_a_lively_semi-flat_digital_lan_13b18a50-a5dc-4c3d-878a-7430b45dd5b0_3.png)
+![Illustration of the cat mascot in a futuristic city with tech icons in the sky.](/assets/images/pages/u3343843948_An_illustration_of_a_lively_semi-flat_digital_lan_13b18a50-a5dc-4c3d-878a-7430b45dd5b0_3.png)
 
 ## Join Our Community Impact
 
