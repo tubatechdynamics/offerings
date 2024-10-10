@@ -925,7 +925,6 @@ form {
 
     nav ul {
       // Remove flex-direction: column;
-      justify-content: flex-end; // Align menu items to the right
     }
   }
 
@@ -997,15 +996,8 @@ form {
 
 @media (max-width: 600px) {
   header {
-    nav {
-      ul {
-        justify-content: flex-end; // Align menu items to the right
-      }
-
-      li {
-        margin-left: 10px; // Add some space between menu items
-        margin-right: 0; // Remove right margin
-      }
+    ul {
+      gap: 10px; // Reduce gap between menu items
     }
   }
 }
@@ -1018,9 +1010,6 @@ form {
     }
 
     nav {
-      ul {
-        gap: 10px; // Reduce gap between menu items
-      }
 
       a {
         font-size: 0.9em; // Slightly reduce font size for menu items
