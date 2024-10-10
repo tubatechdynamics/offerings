@@ -41,18 +41,6 @@ title: Tuba Tech Dynamics
   </div>
 </section>
 
-<!-- Featured Solution Section
-<section class="featured-solution content-wrapper">
-  <h2>Featured Project: EmpowerEd Initiative</h2>
-  <div class="featured-content">
-    <div class="featured-text">
-      <p>Discover how we partnered with the EmpowerEd Initiative to revolutionize their volunteer management and data-driven decision-making processes. Our solutions enhanced operational efficiency and empowered them to make a bigger impact in their community.</p>
-      <p><a href="/portfolio#case-study-empowered">Read the full case study</a></p>
-    </div>
-    <img src="{{ '/assets/images/featured.png' | relative_url }}" alt="Stylized illustration of data integration and volunteer management tools in use">
-  </div>
-</section>-->
-
 <!-- Action Banner -->
 
 <section class="action-banner">
